@@ -1,0 +1,123 @@
+body{
+	font-family: 'Changa', sans-serif; 
+	color: #333;
+	font-size: 1.3rem;
+	margin: 0;
+}
+
+.container{
+	width: 85%;
+	max-width: 850px;
+	margin: 0 auto;
+}
+
+/*--Cabecera de la aplicacion--*/
+.header{
+	background: #CFAAF3;
+	color: black;
+	padding: 3rem 0;
+}
+
+.logo{
+	font-size: 0.6em;
+}
+
+.perfil{
+	font-size: 0.6em;
+}
+
+.header a{
+	color: black;
+	text-decoration: none;
+}
+
+.logo-per-container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/*--Apartado de salida--*/
+.exit{
+	width: 100%;
+	height: 50px;
+	background-color: #FFF;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.bottom{
+	margin: 10px auto;
+	border: 1px;
+	padding: 10px 44px;
+	font-size: 12px;
+	position: absolute;
+	cursor: pointer;
+}
+
+.bottom::before{
+	transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	content: '';
+	width: 50%;
+	height: 100%;
+	background: black;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.rounded{
+	border-radius:50px;
+}
+
+.text-black{
+	color:#FFF;
+	mix-blend-mode: difference;
+}
+		
+.rounded::before{
+	border-radius: 50px;
+	width: 25%;
+	background: #CFAAF3;
+}
+		
+.rounded:hover::before{
+	background: #CFAAF3;
+	width: 100%;
+}	
+
+
+/*--Menu de navegacion--*/
+table{
+	background: #FFFFFF; 
+	width: 100%;
+}
+
+th, td{
+	font-family: 'Changa', sans-serif; 
+	width: 25%;
+ 	text-align: center;
+ 	font-size: 0.8em;
+ 	border: 1px solid #CFAAF3;
+ 	text-decoration: none;
+}
+
+.navigation a{
+	color: black;
+	text-decoration: none;
+}
+
+.navigation td:hover{
+	background: #CFAAF3;
+}
+
+/*--Logo opaco SN(Smart Nutrition--*/
+.logo_opaco{
+	opacity: 0.1;
+	display: block;
+	margin: auto;
+}
+
+h1{
+	text-align: center;
+}
