@@ -23,18 +23,7 @@
 					<label id="user">
 						<b>Usuario</b>
 					</label>
-<<<<<<< HEAD
-					<input type="text" name="user" >
-					
-					<label id="pass">
-						<b>Contraseña</b>
-					</label>
-					<input type="password" name="pass">
-					
-					<button class="btn_login">
-						<b>Aceptar</b>
-					</button>
-=======
+
 					<input type="text" name="user"  >
 					<label id="pass">
 						<b>Contraseña</b>
@@ -42,7 +31,7 @@
 					<input type="password" name="pass" >
                     <input type="submit" value="Ingresar">
 					
->>>>>>> 8f6d8ee0bf0891b00d359277c5604840dea3f645
+
 				</form>
 			</div>
 		</div>

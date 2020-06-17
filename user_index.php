@@ -20,7 +20,7 @@
             display: block;
             position: fixed;
             bottom: 20px;
-            right: 30px;
+            right: 10px;
             z-index: 99;
             font-size: 18px;
             font-family: "Britannic Bold", monospace;
@@ -36,7 +36,7 @@
             display: block;
             position: fixed;
             bottom: 20px;
-            right: 160px;
+            right: 130px;
             z-index: 99;
             font-size: 18px;
             font-family: "Britannic Bold", monospace;
@@ -52,7 +52,7 @@
             display: block;
             position: fixed;
             bottom: 20px;
-            right: 270px;
+            right: 225px;
             z-index: 99;
             font-size: 18px;
             font-family: "Britannic Bold", monospace;
@@ -82,7 +82,7 @@
 </body>
 <footer>
     <div class="card-footer text-muted fixed-bottom">
-        <a id="myBtn" href="test/bottons_snipped.html" class="btn btn-default" role="button">Ajustes</a>
+        <a id="myBtn" href="#" class="btn btn-default"  data-toggle="tooltip" title="Funcion no disponible!" role="button">Ajustes</a>
 
         <a id="myBtn2" href="plan_alimentacion.php" class="btn btn-default" role="button">Plan</a>
 
@@ -92,8 +92,18 @@
 
     </div>
 </footer>
+<div class="container">
+    <h3>Tooltip Example</h3>
+    <a href="#" data-toggle="tooltip" title="Hooray!">Hover over me</a>
+</div>
+
+
 
 <script>
+
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+    });
     //Get the button
     var mybutton = document.getElementById("myBtn");
 
@@ -110,5 +120,6 @@
         document.documentElement.scrollTop = 0;
     }
 </script>
+
 
 </html>

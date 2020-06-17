@@ -22,11 +22,8 @@ if ($result->num_rows > 0) {
         $_SESSION['sexo'] =     $row["SEXO"];
         $_SESSION['peso'] =     $row["PESO"];
 
-
-
-        header("location:../user_index.php");
-
     }
+    header("location:../user_index.php");
 } else {
     header("location:../login_pacientes.php");
     echo "El usuario no esta registrado";

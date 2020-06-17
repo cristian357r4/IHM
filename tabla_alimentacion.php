@@ -19,175 +19,48 @@ session_start();
 <body>
 
 <?php include("modules/_general_Header.php") ?>
-<div class="container mt-3">
-    <button type="button" class="btn btn-primary btn-block " data-toggle="collapse" data-target="#cereales_tuberculos">Simple collapsible</button>
-    <div id="cereales_tuberculos" class="collapse">
-        <table class="table table-borderless">
-            <tbody>
-            <tr>
-                <th>verdura X</th>
-                <td>gramos y</td>
-            </tr>
-            <tr>
-                <th>verdura X</th>
-                <td>gramos y</td>
-            </tr>
-            <tr>
-                <th>verdura X</th>
-                <td>gramos y</td>
-            </tr>
-            <tr>
-                <th>verdura X</th>
-                <td>gramos y</td>
-            </tr>
-            <tr>
-                <th>verdura X</th>
-                <td>gramos y</td>
-            </tr>
-
-            </tbody>
-        </table>
-    </div><br>
-    <button type="button" class="btn btn-primary btn-block " data-toggle="collapse" data-target="#frutas">Simple collapsible</button>
-    <div id="frutas" class="collapse">
-        <table class="table table-borderless">
-            <tbody>
-            <tr>
-                <th>verdura X</th>
-                <td>gramos y</td>
-            </tr>
-            <tr>
-                <th>verdura X</th>
-                <td>gramos y</td>
-            </tr>
-            <tr>
-                <th>verdura X</th>
-                <td>gramos y</td>
-            </tr>
-            <tr>
-                <th>verdura X</th>
-                <td>gramos y</td>
-            </tr>
-            <tr>
-                <th>verdura X</th>
-                <td>gramos y</td>
-            </tr>
-
-            </tbody>
-        </table>
-    </div><br>
-    <button type="button" class="btn btn-primary btn-block " data-toggle="collapse" data-target="#origen_animal">Simple collapsible</button>
-    <div id="origen_animal" class="collapse">
-        <table class="table table-borderless">
-            <tbody>
-            <tr>
-                <th>verdura X</th>
-                <td>gramos y</td>
-            </tr>
-            <tr>
-                <th>verdura X</th>
-                <td>gramos y</td>
-            </tr>
-            <tr>
-                <th>verdura X</th>
-                <td>gramos y</td>
-            </tr>
-            <tr>
-                <th>verdura X</th>
-                <td>gramos y</td>
-            </tr>
-            <tr>
-                <th>verdura X</th>
-                <td>gramos y</td>
-            </tr>
-
-            </tbody>
-        </table>
-    </div><br>
-    <button type="button" class="btn btn-primary btn-block " data-toggle="collapse" data-target="#aceite_grasas">Simple collapsible</button>
-    <div id="aceite_grasas" class="collapse">
-        <table class="table table-borderless">
-            <tbody>
-            <tr>
-                <th>verdura X</th>
-                <td>gramos y</td>
-            </tr>
-            <tr>
-                <th>verdura X</th>
-                <td>gramos y</td>
-            </tr>
-            <tr>
-                <th>verdura X</th>
-                <td>gramos y</td>
-            </tr>
-            <tr>
-                <th>verdura X</th>
-                <td>gramos y</td>
-            </tr>
-            <tr>
-                <th>verdura X</th>
-                <td>gramos y</td>
-            </tr>
-
-            </tbody>
-        </table>
-    </div><br>
-    <button type="button" class="btn btn-primary btn-block " data-toggle="collapse" data-target="#verduras">Simple collapsible</button>
+<div class="container container-fluid mt-3">
+    <button type="button" class="btn btn-primary btn-block " data-toggle="collapse" data-target="#verduras">Verduras</button>
     <div id="verduras" class="collapse">
-        <table class="table table-borderless">
-            <tbody>
-            <tr>
-                <th>verdura X</th>
-                <td>gramos y</td>
-            </tr>
-            <tr>
-                <th>verdura X</th>
-                <td>gramos y</td>
-            </tr>
-            <tr>
-                <th>verdura X</th>
-                <td>gramos y</td>
-            </tr>
-            <tr>
-                <th>verdura X</th>
-                <td>gramos y</td>
-            </tr>
-            <tr>
-                <th>verdura X</th>
-                <td>gramos y</td>
-            </tr>
-
-            </tbody>
-        </table>
+        <img src="imagenes/verduras.png" class="rounded" alt="Cinque Terre" width="300" >
     </div><br>
-    <button type="button" class="btn btn-primary btn-block " data-toggle="collapse" data-target="#azucares">Simple collapsible</button>
+
+    <button type="button" class="btn btn-primary btn-block " data-toggle="collapse" data-target="#frutas">Frutas</button>
+    <div id="frutas" class="collapse">
+        <img src="imagenes/frutas.png" class="rounded" alt="Cinque Terre" width="290" >
+    </div><br>
+
+    <button type="button" class="btn btn-primary btn-block " data-toggle="collapse" data-target="#cereales">Cereales y Tuberculos</button>
+    <div id="cereales" class="collapse">
+        <img src="imagenes/cereales.png" class="rounded" alt="Cinque Terre" width="290">
+    </div><br>
+
+    <button type="button" class="btn btn-primary btn-block " data-toggle="collapse" data-target="#leguminosas">Leguminosas</button>
+    <div id="leguminosas" class="collapse">
+        <img src="imagenes/leguminosas.png" class="rounded" alt="Cinque Terre" width="293">
+    </div><br>
+
+    <button type="button" class="btn btn-primary btn-block " data-toggle="collapse" data-target="#origen_animal">Alimentos de Origen Animal</button>
+    <div id="origen_animal" class="collapse">
+        <img src="imagenes/animal.png" class="rounded" alt="Cinque Terre" width="295">
+    </div><br>
+
+    <button type="button" class="btn btn-primary btn-block " data-toggle="collapse" data-target="#lacteos">Lacteos</button>
+    <div id="lacteos" class="collapse">
+        <img src="imagenes/leche.png" class="rounded" alt="Cinque Terre" width="293" >
+    </div><br>
+
+    <button type="button" class="btn btn-primary btn-block " data-toggle="collapse" data-target="#aceites">Aceites y Grasas</button>
+    <div id="aceites" class="collapse">
+        <img src="imagenes/aceites.png" class="rounded" alt="Cinque Terre" width="293">
+    </div>
+    <br>
+
+    <button type="button" class="btn btn-primary btn-block " data-toggle="collapse" data-target="#azucares">Azucares</button>
     <div id="azucares" class="collapse">
-        <table class="table table-borderless">
-            <tbody>
-            <tr>
-                <th>verdura X</th>
-                <td>gramos y</td>
-            </tr>
-            <tr>
-                <th>verdura X</th>
-                <td>gramos y</td>
-            </tr>
-            <tr>
-                <th>verdura X</th>
-                <td>gramos y</td>
-            </tr>
-            <tr>
-                <th>verdura X</th>
-                <td>gramos y</td>
-            </tr>
-            <tr>
-                <th>verdura X</th>
-                <td>gramos y</td>
-            </tr>
-
-            </tbody>
-        </table>
-    </div><br>
+        <img src="imagenes/azucar.png" class="rounded" alt="Cinque Terre" width="293">
+    </div>
+    <br>
     <a href="./user_index.php" class="btn btn-primary btn-block" style="font-family: 'Britannic Bold', monospace" role="button">Volver</a>
 
 </div>

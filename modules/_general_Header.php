@@ -9,11 +9,7 @@
     </div>
     <div class="d-flex justify-content-center mb-3">
         <div><strong>
-                <?php
-                if (isset($_SESSION['nombre'])){
-                    echo $_SESSION['nombre'];
-                }
-                ?>
+               Noemi
             </strong></div>
     </div>
 

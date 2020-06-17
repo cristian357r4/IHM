@@ -2,19 +2,20 @@
     <tbody>
     <tr>
         <th>Nombre</th>
-        <td><?php echo $_SESSION["nombre"]?></td>
+
+        <td>Noemi</td>
     </tr>
     <tr>
         <th>Edad</th>
-        <td><?php  echo $_SESSION["edad"]?></td>
+        <td>25</td>
     </tr>
     <tr>
         <th>Sexo</th>
-        <td><?php echo $_SESSION["sexo"]?></td>
+        <td>Femenino</td>
     </tr>
     <tr>
         <th>Peso</th>
-        <td><?php  echo $_SESSION["peso"]?></td>
+        <td>73 kg</td>
     </tr>
 
     </tbody>
