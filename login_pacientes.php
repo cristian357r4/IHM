@@ -23,11 +23,13 @@
 						<b>Usuario</b>
 					</label>
 					<input type="text" name="user" >
+					
 					<label id="pass">
 						<b>Contraseña</b>
 					</label>
 					<input type="password" name="pass">
-					<button class="btn_accept">
+					
+					<button class="btn_login">
 						<b>Aceptar</b>
 					</button>
 				</form>

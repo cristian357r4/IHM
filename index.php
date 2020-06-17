@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 	<meta charset="utf-8">
-	<title>Configuracion</title>
+	<title>Smart Nutrition</title>
 	<link rel="stylesheet" type="text/css" href="css/css_principal.css">
 </head>
 <body>
@@ -44,7 +44,6 @@
 	<!-- Contenido de la aplicacion -->
 	<main class="main">
 		<div class="container">
-			<h1>Configuracion</h1>
 			<img src="imagenes/logo_sn.jpeg" class="logo_opaco">
 		</div>
 	</main>

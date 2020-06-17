@@ -17,7 +17,7 @@
 		 y se coloca el boton de salida de la aplicacion -->
 	<div class="exit">
 		<button class="bottom rounded">
-			<span class="text-black">Salir</span>
+			<span id="text-black">Salir</span>
 		</button>
 	</div>
 	<!-- Menu de navegacion -->
@@ -32,7 +32,7 @@
 						<a href="historia_clinica.html">Historia Clinica</a>
 					</td>
 					<td>
-						<a href="pacientes.html">Pacientes</a>
+						<a href="ag_pacientes.html">Pacientes</a>
 					</td>
 					<td>
 						<a href="configuracion.html">Configuracion</a>

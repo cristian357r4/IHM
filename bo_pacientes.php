@@ -2,8 +2,9 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Configuracion</title>
+	<title>Pacientes</title>
 	<link rel="stylesheet" type="text/css" href="css/css_principal.css">
+	<link rel="stylesheet" type="text/css" href="css/css_pacientes.css">
 </head>
 <body>
 	<!-- Cabecera principal -->
@@ -43,9 +44,25 @@
 	</div>
 	<!-- Contenido de la aplicacion -->
 	<main class="main">
-		<div class="container">
-			<h1>Configuracion</h1>
-			<img src="imagenes/logo_sn.jpeg" class="logo_opaco">
+		<div class="container navigation menu-aabc">
+			<h1>Pacientes</h1>
+			<!--<img src="imagenes/logo_sn.jpeg" class="logo_opaco">-->
+			<table>
+				<tr>
+					<td>
+						<a href="ag_pacientes.html">Agregar</a>
+					</td>
+					<td>
+						<a href="ac_pacientes.html">Actualizar</a>
+					</td>
+					<td>
+						<a href="bo_pacientes.html">Borrar</a>
+					</td>
+					<td>
+						<a href="co_pacientes.html">Consultar</a>
+					</td>
+				</tr>
+			</table>
 		</div>
 	</main>
 </body>
