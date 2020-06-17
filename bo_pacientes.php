@@ -10,7 +10,7 @@
 	<!-- Cabecera principal -->
 	<header class="header">
 		<div class="container logo-per-container">
-			<a href="index.html" class="logo"><b>SMART NUTRITION</b></a>
+			<a href="index.php" class="logo"><b>SMART NUTRITION</b></a>
 			<h7 class="perfil">Nombre del licenciado</h7>
 		</div>
 	</header>
@@ -27,16 +27,16 @@
 			<table>
 				<tr>
 					<td>
-						<a href="perfil.html">Perfil</a>
+						<a href="perfil.php">Perfil</a>
 					</td>
 					<td>
-						<a href="historia_clinica.html">Historia Clinica</a>
+						<a href="historia_clinica.php">Historia Clinica</a>
 					</td>
 					<td>
-						<a href="ag_pacientes.html">Pacientes</a>
+						<a href="ag_pacientes.php">Pacientes</a>
 					</td>
 					<td>
-						<a href="configuracion.html">Configuracion</a>
+						<a href="configuracion.php">Configuracion</a>
 					</td>
 				</tr>
 			</table>
@@ -50,16 +50,16 @@
 			<table>
 				<tr>
 					<td>
-						<a href="ag_pacientes.html">Agregar</a>
+						<a href="ag_pacientes.php">Agregar</a>
 					</td>
 					<td>
-						<a href="ac_pacientes.html">Actualizar</a>
+						<a href="ac_pacientes.php">Actualizar</a>
 					</td>
 					<td>
-						<a href="bo_pacientes.html">Borrar</a>
+						<a href="bo_pacientes.php">Borrar</a>
 					</td>
 					<td>
-						<a href="co_pacientes.html">Consultar</a>
+						<a href="co_pacientes.php">Consultar</a>
 					</td>
 				</tr>
 			</table>
