@@ -2,19 +2,19 @@
     <tbody>
     <tr>
         <th>Nombre</th>
-        <td>Guess</td>
+        <td><?php echo $_SESSION["nombre"]?></td>
     </tr>
     <tr>
         <th>Edad</th>
-        <td>??</td>
+        <td><?php  echo $_SESSION["edad"]?></td>
     </tr>
     <tr>
         <th>Sexo</th>
-        <td>??</td>
+        <td><?php echo $_SESSION["sexo"]?></td>
     </tr>
     <tr>
         <th>Peso</th>
-        <td>Talla</td>
+        <td><?php  echo $_SESSION["peso"]?></td>
     </tr>
 
     </tbody>

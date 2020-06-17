@@ -1,4 +1,5 @@
 <?php
+    session_start();
 ?>
 <!doctype html>
 <html lang="es-mx">
@@ -81,7 +82,7 @@
 </body>
 <footer>
     <div class="card-footer text-muted fixed-bottom">
-        <a id="myBtn" href="bottons_snipped.html" class="btn btn-default" role="button">Ajustes</a>
+        <a id="myBtn" href="test/bottons_snipped.html" class="btn btn-default" role="button">Ajustes</a>
 
         <a id="myBtn2" href="plan_alimentacion.php" class="btn btn-default" role="button">Plan</a>
 

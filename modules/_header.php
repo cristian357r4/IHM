@@ -1,4 +1,5 @@
 <div class="jumbotron" style="background-color:#CFAAF3;">
+
     <div class="d-flex justify-content-center mb-3">
 
         <div>
@@ -8,7 +9,13 @@
 
     </div>
     <div class="d-flex justify-content-between mb-3">
-        <div><strong>Noemi Serrano</strong></div>
+        <div><strong><?php
+                if (isset($_SESSION['nombre'])){
+                    echo $_SESSION['nombre'];
+                }
+                ?>
+
+            </strong></div>
     </div>
 
 </div>
