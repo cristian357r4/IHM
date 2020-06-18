@@ -4,7 +4,7 @@ session_start();
 <!doctype html>
 <html lang="es-mx">
 <head>
-    <title>Bootstrap Example</title>
+    <title>Smart Nutrition</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
