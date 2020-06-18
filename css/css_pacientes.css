@@ -16,7 +16,7 @@
 }
 
 .btn:hover,.btn:active,.btn:focus{
-	background: #CFAAF3;
+  background: #CFAAF3;
 }
 
 /*-- ac_pacientes --*/
@@ -45,4 +45,22 @@
 
 
 /*-- co_pacientes --*/
+.tabla-consulta{
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
 
+.tabla-td-th{
+  font-family: 'Changa', sans-serif;
+  text-align: left;
+  width: 90%;
+  padding: 5px;
+  font-size: 0.8em;
+  margin: 0 auto;
+}
+
+.tabla-tr:nth-child(even){
+  background-color: #CFAAF3;
+}
