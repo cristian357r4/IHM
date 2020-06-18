@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no" charset="utf-8">
 	<title>Pacientes</title>
 	<link rel="stylesheet" type="text/css" href="css/css_principal.css">
 	<link rel="stylesheet" type="text/css" href="css/css_pacientes.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/util.css">
 </head>
 <body>
 	<!-- Cabecera principal -->
 	<header class="header">
 		<div class="container logo-per-container">
-			<a href="index.php" class="logo"><b>SMART NUTRITION</b></a>
+			<a href="index.html" class="logo"><b>SMART NUTRITION</b></a>
 			<h7 class="perfil">Nombre del licenciado</h7>
 		</div>
 	</header>
@@ -27,16 +29,16 @@
 			<table>
 				<tr>
 					<td>
-						<a href="perfil.php">Perfil</a>
+						<a href="perfil.html">Perfil</a>
 					</td>
 					<td>
-						<a href="historia_clinica.php">Historia Clinica</a>
+						<a href="historia_clinica.html">Historia Clinica</a>
 					</td>
 					<td>
-						<a href="ag_pacientes.php">Pacientes</a>
+						<a href="ag_pacientes.html">Pacientes</a>
 					</td>
 					<td>
-						<a href="configuracion.php">Configuracion</a>
+						<a href="configuracion.html">Configuracion</a>
 					</td>
 				</tr>
 			</table>
@@ -50,37 +52,103 @@
 			<table>
 				<tr>
 					<td>
-						<a href="ag_pacientes.php">Agregar</a>
+						<a href="ag_pacientes.html">Agregar</a>
 					</td>
 					<td>
-						<a href="ac_pacientes.php">Actualizar</a>
+						<a href="ac_pacientes.html">Actualizar</a>
 					</td>
 					<td>
-						<a href="bo_pacientes.php">Borrar</a>
+						<a href="bo_pacientes.html">Borrar</a>
 					</td>
 					<td>
-						<a href="co_pacientes.php">Consultar</a>
+						<a href="co_pacientes.html">Consultar</a>
 					</td>
 				</tr>
 			</table>
 		</div>
-		<div class="wrap-contact100">
+		<div>
 			<form class="contact100-form validate-form">
-				<table>
-					<tr>
-						<td>Nombre</td>
-						<td>Edad</td>
-						<td>Sexo</td>
-						<td>Religion</td>
-						<td>Estado civil</td>
-						<td>Ocupacion</td>
-						<td>Fecha de nacimiento</td>
-						<td>Telefono</td>
-						<td>Email</td>
-						<td>Peso</td>
-						<td>Estatura</td>
-					</tr>
-				</table>
+				<h5>Consulta paciente</h5>
+					<table class="tabla-consulta">
+						<tr class="tabla-tr">
+							<th class="tabla-td-th">Nombre</th>
+							<th class="tabla-td-th">Edad</th>
+							<th class="tabla-td-th">Sexo</th>
+							<th class="tabla-td-th">Religion</th>
+							<th class="tabla-td-th">Estado civil</th>
+							<th class="tabla-td-th">Ocupacion</th>
+							<th class="tabla-td-th">Fecha de nacimiento</th>
+							<th class="tabla-td-th">Telefono</th>
+							<th class="tabla-td-th">Email</th>
+							<th class="tabla-td-th">Peso</th>
+							<th class="tabla-td-th">Estatura</th>
+						</tr>
+						<tr class="tabla-tr">
+							<td class="tabla-td-th">Pedro Ramirez</td>
+							<td class="tabla-td-th">26</td>
+							<td class="tabla-td-th">M</td>
+							<td class="tabla-td-th">Ateo</td>
+							<td class="tabla-td-th">Soltero</td>
+							<td class="tabla-td-th">Estudiante</td>
+							<td class="tabla-td-th">1993-05-08</td>
+							<td class="tabla-td-th">7221689176</td>
+							<td class="tabla-td-th">js8@gmail.com</td>
+							<td class="tabla-td-th">97</td>
+							<td class="tabla-td-th">1.70</td>
+						</tr>
+						<tr class="tabla-tr">
+							<td class="tabla-td-th">Rosa Lopez</td>
+							<td class="tabla-td-th">16</td>
+							<td class="tabla-td-th">F</td>
+							<td class="tabla-td-th">Catolico</td>
+							<td class="tabla-td-th">Soltero</td>
+							<td class="tabla-td-th">Estudiante</td>
+							<td class="tabla-td-th">2004-11-08</td>
+							<td class="tabla-td-th">7221685548</td>
+							<td class="tabla-td-th">rl14@gmail.com</td>
+							<td class="tabla-td-th">56</td>
+							<td class="tabla-td-th">1.60</td>
+						</tr>
+						<tr class="tabla-tr">
+							<td class="tabla-td-th">Jose Ramos</td>
+							<td class="tabla-td-th">27</td>
+							<td class="tabla-td-th">M</td>
+							<td class="tabla-td-th">Testigo de Jehova</td>
+							<td class="tabla-td-th">Casado</td>
+							<td class="tabla-td-th">Obrero</td>
+							<td class="tabla-td-th">1992-07-05</td>
+							<td class="tabla-td-th">7225488776</td>
+							<td class="tabla-td-th">jr3@gmail.com</td>
+							<td class="tabla-td-th">85</td>
+							<td class="tabla-td-th">1.80</td>
+						</tr>
+						<tr class="tabla-tr">
+							<td class="tabla-td-th">Sofia Flores</td>
+							<td class="tabla-td-th">24</td>
+							<td class="tabla-td-th">F</td>
+							<td class="tabla-td-th">Catolica</td>
+							<td class="tabla-td-th">Casado</td>
+							<td class="tabla-td-th">Licenciada</td>
+							<td class="tabla-td-th">1995-06-07</td>
+							<td class="tabla-td-th">7227531245</td>
+							<td class="tabla-td-th">saphie@gmail.com</td>
+							<td class="tabla-td-th">55</td>
+							<td class="tabla-td-th">1.58</td>
+						</tr>
+						<tr class="tabla-tr">
+							<td class="tabla-td-th">Carolina Gonzalez</td>
+							<td class="tabla-td-th">27</td>
+							<td class="tabla-td-th">F</td>
+							<td class="tabla-td-th">Catolico</td>
+							<td class="tabla-td-th">Comprometida</td>
+							<td class="tabla-td-th">Licenciada</td>
+							<td class="tabla-td-th">1993-05-21</td>
+							<td class="tabla-td-th">7221686478</td>
+							<td class="tabla-td-th">carog@gmail.com</td>
+							<td class="tabla-td-th">55</td>
+							<td class="tabla-td-th">1.54</td>
+						</tr>
+					</table>
 			</form>
 		</div>
 	</main>
