@@ -16,7 +16,7 @@
 }
 
 .btn:hover,.btn:active,.btn:focus{
-	background: #CFAAF3;
+  background: #CFAAF3;
 }
 
 /*-- ac_pacientes --*/
@@ -45,4 +45,43 @@
 
 
 /*-- co_pacientes --*/
+.tabla-consulta{
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
 
+.tabla-td-th{
+  font-family: 'Changa', sans-serif;
+  text-align: left;
+  width: 90%;
+  padding: 5px;
+  font-size: 0.8em;
+  margin: 0 auto;
+}
+
+.tabla-tr:nth-child(even){
+  background-color: #CFAAF3;
+}
+
+/*-- Historia clinica --*/
+.btn-nueva{
+  font-family: 'Changa', sans-serif;
+  outline: 0;
+  background: #FFF;
+  width: 20%;
+  padding: 15px;
+  color: #000;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  border-radius: 25px;
+  border: 2px solid #CFAAF3;
+  justify-content: space-between;
+}
+
+.btn-nueva:hover,.btn-nueva:active,.btn-nueva:focus{
+  background: #CFAAF3;
+}
