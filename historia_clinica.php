@@ -57,7 +57,7 @@
 				</div>
 				<input type="submit" class="btn-buscar" name="buscar" value="Buscar">
 				<button class="btn-nueva" name="buscar" value="Nueva Historia Clinica">
-					<a href="formato_historia_clinica.php">Nueva Historia Clinica</a>
+					<a class="btn-hc" href="formato_historia_clinica.php">Nueva Historia Clinica</a>
 				</button>
 			</form>
 		</div>
