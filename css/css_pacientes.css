@@ -64,3 +64,24 @@
 .tabla-tr:nth-child(even){
   background-color: #CFAAF3;
 }
+
+/*-- Historia clinica --*/
+.btn-nueva{
+  font-family: 'Changa', sans-serif;
+  outline: 0;
+  background: #FFF;
+  width: 20%;
+  padding: 15px;
+  color: #000;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  border-radius: 25px;
+  border: 2px solid #CFAAF3;
+  justify-content: space-between;
+}
+
+.btn-nueva:hover,.btn-nueva:active,.btn-nueva:focus{
+  background: #CFAAF3;
+}
