@@ -16,21 +16,22 @@
 	</header>
 	<!-- Contenido de la aplicacion -->
 	<main class="main">
-		<div class="container">
-			<h1>Editar Perfil</h1>
+		<img src="imagenes/page_buid.jpg">
+		<!--<div class="container">
+			<h1>Editar Perfil</h1>-->
 			<!-- Parte izquierda foto de perfil -->
-			<div class="parte_izquierda">
+		<!--	<div class="parte_izquierda">
 				<div class="circulo">
 					
 				</div>
-			</div>
+			</div>-->
 			<!-- Parte derecha datos del formulario -->
-			<div class="parte_derecha">
+		<!--	<div class="parte_derecha">
 				<button>
 					
 				</button>
 			</div>
-		</div>
+		</div>-->
 	</main>
 </body>
 </html>

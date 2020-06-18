@@ -41,12 +41,13 @@
 			</table>
 		</nav>
 	</div>
-	<!-- Contenido de la aplicacion -->
+	<!-- Contenido de la aplicacion 
 	<main class="main">
 		<div class="container">
 			<h1>Configuracion</h1>
 			<img src="imagenes/logo_sn.jpeg" class="logo_opaco">
 		</div>
-	</main>
+	</main>-->
+	<img src="imagenes/page_buid.jpg">
 </body>
 </html>

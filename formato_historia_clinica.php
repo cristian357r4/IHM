@@ -31,7 +31,7 @@
 				
 				<input type="submit" class="btn-buscar" name="buscar" value="Aceptar">
 				<input type="reset" class="btn-buscar" name="cancelar" value="Cancelar">
-				<button class="btn-nueva" name="buscar">
+				<button class="btn-hc btn-buscar" name="buscar">
 					<a href="#">Imprimir</a>
 				</button>
 			</form>
