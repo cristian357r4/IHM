@@ -20,11 +20,11 @@
 
     	if (mysqli_num_rows($result) > 0) {
   			echo "entro";
-  			mysqli_close($conn);
+  			//mysqli_close($conn);
   			//header('Location: index.php');
 		}else{
 			echo "noentro";
-			mysqli_close($conn);
+			//mysqli_close($conn);
 			//header('Location: login_nutriologos.php');
 		}
 
