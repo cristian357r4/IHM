@@ -22,19 +22,17 @@
 						<b>Inicio de Sesion</b>
 					</h7>
 					<form class="login-form">
-						<label id="user">
+						<label for="user">
 							<b>Usuario</b>
 						</label>
-						<input type="text" name="user" >
+						<input type="text" name="user" id="user">
 						
-						<label id="pass">
+						<label for="pass">
 							<b>Contraseña</b>
 						</label>
-						<input type="password" name="pass">
+						<input type="password" name="pass" id="pass">
 						
-						<button class="btn-login">
-							<b>Aceptar</b>
-						</button>
+						<input type="submit" class="btn-login" value="Aceptar">
 					</form>
 				</div>
 			</div>

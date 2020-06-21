@@ -69,6 +69,7 @@ label{
 
 .btn-login {
     font-family: 'Changa', sans-serif;
+    font-weight: bold;
     outline: 0;
     background: #FFF;
     width: 50%;
@@ -93,6 +94,7 @@ label{
 
 .btn-accept {
     font-family: 'Changa', sans-serif;
+    font-weight: bold;
     outline: 0;
     background: #FFF;
     width: 50%;
@@ -113,6 +115,7 @@ label{
 
 .btn-cancel {
     font-family: 'Changa', sans-serif;
+    font-weight: bold;
     outline: 0;
     background: #FFF;
     width: 50%;
