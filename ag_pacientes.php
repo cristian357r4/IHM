@@ -67,7 +67,7 @@
 			</table>
 		</div>
 		<div class="wrap-contact100">
-			<form class="contact100-form validate-form">
+			<form class="contact100-form validate-form" method="POST" action="add_pacientes.php">
 				<h5>Agregar paciente</h5>
 				<div class="wrap-input100 validate-input bg1">
 					<span class="label-input100">Nombre</span>
