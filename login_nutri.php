@@ -13,7 +13,7 @@
     	$nuser = $_POST['user'];
     	$npass = $_POST['pass'];
 
-    	$query = "SELECT USUARIO, CONTRASENYA FROM ADMINISTRADOR WHERE USUARIO = '$nuser' AND CONTRASENYA = '$npass'";
+    	$query = "SELECT * FROM ADMINISTRADOR WHERE USUARIO = '$nuser' AND CONTRASENYA = '$npass'";
     	echo $query;
 
     	$result = mysqli_query($conn,$query);
