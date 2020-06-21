@@ -21,7 +21,7 @@
 					<h7 class="tittle">
 						<b>Inicio de Sesion</b>
 					</h7>
-					<form class="login-form">
+					<form class="login-form" method="POST" action="login_nutri.php">
 						<label for="user">
 							<b>Usuario</b>
 						</label>
