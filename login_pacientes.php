@@ -28,13 +28,8 @@
 					<label id="pass">
 						<b>Contraseña</b>
 					</label>
-					<input type="password" name="pass" >
-
-                    <input type="submit" class="btn-accept">
-                    	<b>Ingresar</b>
-                    </input>
-					
-
+					<input type="password" name="pass" > 
+                    <input type="submit" class="btn-accept" value="Ingresar">
 				</form>
 			</div>
 		</div>
