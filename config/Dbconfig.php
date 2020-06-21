@@ -20,7 +20,7 @@ class Dbconfig {
         }elseif ($type_host == 'remote'){
             $this->serverName='107.180.41.126';
             $this->userName='agjesus';
-            $this->passCode='123456';
+            $this->passCode='12345';
             $this->dbName='nutritionsmart';
         }
     }

@@ -3,48 +3,35 @@
 <head>
 	<meta charset="utf-8">
 	<title>Smart Nutrition</title>
-	<link rel="stylesheet" type="text/css" href="css/css_principal.css">
+	<link rel="stylesheet" type="text/css" href="css/css_logins.css">
 </head>
 <body>
 	<!-- Cabecera principal -->
-	<header class="header">
+
+	<header class="header jumbotron">
 		<div class="container logo-per-container">
-			<a href="index.php" class="logo"><b>SMART NUTRITION</b></a>
-			<h7 class="perfil">Nombre del licenciado</h7>
+			<h1 class="logo">SMART NUTRITION</h1>
 		</div>
 	</header>
-	<!-- Espacio entre la cabecera y el menu de navegacion
-		 y se coloca el boton de salida de la aplicacion -->
-	<div class="exit">
-		<button class="bottom rounded">
-			<span id="text-black">Salir</span>
-		</button>
-	</div>
-	<!-- Menu de navegacion -->
-	<div>
-		<nav class="navigation">
-			<table>
-				<tr>
-					<td>
-						<a href="perfil.php">Perfil</a>
-					</td>
-					<td>
-						<a href="historia_clinica.php">Historia Clinica</a>
-					</td>
-					<td>
-						<a href="ag_pacientes.php">Pacientes</a>
-					</td>
-					<td>
-						<a href="configuracion.php">Configuracion</a>
-					</td>
-				</tr>
-			</table>
-		</nav>
-	</div>
-	<!-- Contenido de la aplicacion -->
 	<main class="main">
-		<div class="container">
-			<img src="imagenes/logo_sn.jpeg" class="logo_opaco">
+		<div class="login_page">
+			<div class="form">
+				<h7 class="tittle">
+					<b>Inicio de Sesion</b>
+				</h7>
+				<form action="controller/_validar_usuario.php" class="login-form" method="post">
+					<label id="user">
+						<b>Usuario</b>
+					</label>
+
+					<input type="text" name="user"  >
+					<label id="pass">
+						<b>Contraseña</b>
+					</label>
+					<input type="password" name="pass" > 
+                    <input type="submit" class="btn-accept" value="Ingresar">
+				</form>
+			</div>
 		</div>
 	</main>
 </body>
