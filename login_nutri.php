@@ -6,14 +6,16 @@
 <body>
 	<!-- php login -->
 	<?php
-    	include("conexion.php");
+    	//include("conexion.php");
+		$conn = mysqli_connect("107.180.41.126","agjesus","123456","nutritionsmart");
 
-    	session_start();
+	if($conn -> connect_error)
+		die($conn -> connect_error);
 
     	$nuser = $_POST['user'];
     	$npass = $_POST['pass'];
 
-    	$query = "SELECT ID, USUARIO, CONTRASENYA FROM ADMINISTRADOR WHERE USUARIO = '$nuser' AND CONTRASENYA = '$npass'";
+    	$query = "SELECT * FROM ADMINISTRADOR"; //WHERE USUARIO = '$nuser' AND CONTRASENYA = '$npass'";
     	echo $query;
 
     	$result = mysqli_query($conn,$query);
