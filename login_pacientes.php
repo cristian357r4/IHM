@@ -29,7 +29,9 @@
 						<b>Contraseña</b>
 					</label>
 					<input type="password" name="pass" >
-                    <input type="submit" value="Ingresar">
+                    <button class="btn-accept">
+                    	<b>Ingresar</b>
+                    </button>
 					
 
 				</form>
