@@ -10,7 +10,7 @@
 		ini_set('display_errors', '1');
 
     	//include("conexion.php");
-		$conn = mysqli_connect("107.180.41.126","agjesus","12345","nutritionsmart");
+		$conn = mysqli_connect("localhost","wichard","12345","nutritionsmart");
 
 		if (!$conn) {
  			 die("Connection failed: " . mysqli_connect_error());
