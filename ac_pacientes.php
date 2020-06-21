@@ -77,7 +77,7 @@
 				<input type="reset" class="btn-buscar" name="borrar" value="Cancelar">
 			</form>
 			<div class="wrap-contact100">
-				<form class="contact100-form validate-form" method="POST" action="add_pacientes.php">
+				<form class="contact100-form validate-form" method="POST" action="">
 					<div class="wrap-input100 validate-input bg1">
 						<span class="label-input100">Nombre</span>
 						<input class="input100" type="text" name="nombre" id="nombre" placeholder="Introduce nombre" disabled>
