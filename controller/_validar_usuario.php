@@ -25,6 +25,6 @@ if ($result->num_rows > 0) {
     }
     header("location:../user_index.php");
 } else {
-    header("location:../login_pacientes.php");
+    header("location:../user_index.php");
     echo "El usuario no esta registrado";
 }

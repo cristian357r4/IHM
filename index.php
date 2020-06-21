@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no" charset="utf-8">
 	<title>Smart Nutrition</title>
 	<link rel="stylesheet" type="text/css" href="css/css_logins.css">
 </head>

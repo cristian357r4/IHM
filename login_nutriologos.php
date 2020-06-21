@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no" charset="utf-8">
 	<title>Login Nutriologos</title>
 	<link rel="stylesheet" type="text/css" href="css/css_logins.css">
-	<!--<link rel="stylesheet" type="text/css" href="css/css_loginn.css">-->
 </head>
 <body>
 	<!-- Cabecera principal -->

@@ -4,7 +4,7 @@
 	<title></title>
 </head>
 <body>
-	<!-- php login -->
+	<!-- php login nutriologos -->
 	<?php
 		error_reporting(E_ALL);
 		ini_set('display_errors', '1');
