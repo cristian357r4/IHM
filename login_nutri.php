@@ -18,9 +18,14 @@
     	$query = "SELECT * FROM ADMINISTRADOR"; //WHERE USUARIO = '$nuser' AND CONTRASENYA = '$npass'";
     	echo $query;
 
-    	$result = mysqli_query($conn,$query);
+    	if(mysqli_query($conn,$query)){
+    		echo "consulta exitosa";
+    	}else{
+    		echo "no puedo entrar";
+    	}
 
-    	echo "ABC".$result ;
+    	mysqli_close($conn);
+    	/*echo "ABC".$result ;
     	echo mysqli_num_rows($result);
     	if (mysqli_num_rows($result) > 0) {
   			
@@ -31,7 +36,7 @@
 			echo "noentro";
 			//mysqli_close($conn);
 			//header('Location: login_nutriologos.php');
-		}
+		}*/
 
 	?>
 </body>
