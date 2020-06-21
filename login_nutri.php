@@ -13,17 +13,19 @@
     	$nuser = $_POST['user'];
     	$npass = $_POST['pass'];
 
-    	$query = "SELECT * FROM ADMINISTRADOR WHERE USUARIO = '$nuser' AND CONTRASENYA = '$npass'";
+    	$query = "SELECT ID, USUARIO, CONTRASENYA FROM ADMINISTRADOR WHERE USUARIO = '$nuser' AND CONTRASENYA = '$npass'";
     	echo $query;
 
     	$result = mysqli_query($conn,$query);
 
     	if (mysqli_num_rows($result) > 0) {
+  			echo "entro";
   			mysqli_close($conn);
-  			header('Location: index.php');
+  			//header('Location: index.php');
 		}else{
+			echo "noentro";
 			mysqli_close($conn);
-			header('Location: login_nutriologos.php');
+			//header('Location: login_nutriologos.php');
 		}
 
 	?>
