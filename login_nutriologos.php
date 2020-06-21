@@ -71,12 +71,12 @@
 						<input type="password" name="pass_n">
 						
 						<div class="div-buttons">
-							<button class="btn-accept">
+							<input type="submit" class="btn-accept">
 								<b>Registrar</b>
-							</button>
-							<button class="btn-cancel">
+							</input>
+							<input type="reset" class="btn-cancel">
 								<b>Cancelar</b>
-							</button>	
+							</input>	
 						</div>
 					</form>
 				</div>

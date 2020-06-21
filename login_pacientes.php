@@ -29,9 +29,10 @@
 						<b>Contraseña</b>
 					</label>
 					<input type="password" name="pass" >
-                    <button class="btn-accept">
+
+                    <input type="submit" class="btn-accept">
                     	<b>Ingresar</b>
-                    </button>
+                    </input>
 					
 
 				</form>
