@@ -18,7 +18,7 @@
 
     	$result = mysqli_query($conn,$query);
 
-    	echo "ABC"+$result ;
+    	echo "ABC".$result ;
     	echo mysqli_num_rows($result);
     	if (mysqli_num_rows($result) > 0) {
   			
