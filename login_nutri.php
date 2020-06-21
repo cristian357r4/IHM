@@ -17,8 +17,10 @@
     	echo $query;
 
     	$result = mysqli_query($conn,$query);
-
+    	echo $result;
+    	echo mysqli_num_rows($result);
     	if (mysqli_num_rows($result) > 0) {
+  			
   			echo "entro";
   			//mysqli_close($conn);
   			//header('Location: index.php');
