@@ -1,5 +1,5 @@
 <?php
-	$conn = mysqli_connect("107.180.41.126","agjesus","123456","nutritionsmart");
+	$conn = mysqli_connect("localhost","agjesus","12345","nutritionsmart");
 
 	if (!$conn) {
  		die("Connection failed: " . mysqli_connect_error());
