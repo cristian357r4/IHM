@@ -7,6 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="css/css_principal.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/css_fhc.css">
 </head>
 <body>
 	<!-- Cabecera principal -->
@@ -23,17 +24,73 @@
 			<h1>Historia Clinica</h1>
 		</div>
 		
-		<div class="wrap-contact100">
+		<div class="div-hc">
 			<form class="contact100-form validate-form">
 				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100">
-					
+					<h6>Evaluacion Bioquimica</h6>
+					<table class="tabla-bio-qui">
+						<tr>
+							<th>Biometría hemática</th>
+							<th>Valores del paciente</th>
+						</tr>
+						<tr>
+							<td>Glóbulos rojos (eritrocitos)</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>Glóbulos blancos (leucocitos)</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>Plaquetas</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>Hemoglobina</td>
+							<td></td>
+						</tr>	
+						<tr>
+							<td>Hematocrito</td>
+							<td></td>
+						</tr>
+						<tr>
+							<th>Química sanguínea</th>
+							<td></td>
+						</tr>
+						<tr>
+							<td>Nitrógeno urea (BUN)</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>Glucosa</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>Creatinina</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>Acido úrico</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>Triglicéridos</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>Colesterol</td>
+							<td></td>
+						</tr>
+					</table>	
 				</div>
-				
-				<input type="submit" class="btn-buscar" name="buscar" value="Aceptar">
+				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100">
+					<h6>Antecedentes Familiares</h6>
+				</div>
+				<!--<input type="submit" class="btn-buscar" name="buscar" value="Aceptar">
 				<input type="reset" class="btn-buscar" name="cancelar" value="Cancelar">
 				<button class="btn-hc btn-buscar" name="buscar">
 					<a href="#">Imprimir</a>
-				</button>
+				</button>-->
 			</form>
 		</div>
 	</main>

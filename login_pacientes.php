@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Smart Nutrition</title>
-	<link rel="stylesheet" type="text/css" href="css/css_loginp.css">
+	<link rel="stylesheet" type="text/css" href="css/css_logins.css">
 </head>
 <body>
 	<!-- Cabecera principal -->
