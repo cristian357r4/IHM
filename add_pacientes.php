@@ -24,11 +24,10 @@
 	    	$pestatura = $_POST['estatura'];
 
 	    	$query = "INSERT INTO PACIENTE (NOMBRE,EDAD,SEXO,RELIGION,ESTADOCIVIL,OCUPACION,FECHADENACIMIENTO,TELEFONO,CORREO,PESO,ESTATURA) VALUES ('$pnombre','$pedad','$psexo','$preligion','$pestadocivil','$pocupacion','$pfechadenacimiento','$ptelefono','$pemail','$ppeso','$pestatura')";
-	    	echo $query;
 
 	    	$result = mysqli_query($conn,$query);
 
-	    	if(mysqli_num_rows($result) > 0){
+	    	if($result){
 	    		echo '<script language="javascript">alert("Registro completo");</script>';
 	    		mysqli_close($conn);
 	    		header('Location: ag_pacientes.php');
