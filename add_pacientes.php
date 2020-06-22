@@ -24,6 +24,7 @@
 	    	$pestatura = $_POST['estatura'];
 
 	    	$query = "INSERT INTO PACIENTE (NOMBRE,EDAD,SEXO,RELIGION,ESTADOCIVIL,OCUPACION,FECHADENACIMIENTO,TELEFONO,CORREO,PESO,ESTATURA) VALUES ('$pnombre','$pedad','$psexo','$preligion','$pestadocivil','$pocupacion','$pfechadenacimiento','$ptelefono','$pemail','$ppeso','$pestatura')";
+	    	echo $query;
 
 	    	$result = mysqli_query($conn,$query);
 
