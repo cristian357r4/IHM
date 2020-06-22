@@ -28,13 +28,12 @@
 	    	$result = mysqli_query($conn,$query);
 
 	    	if(mysqli_num_rows($result) > 0){
-	    		echo "ingreso correcto del paciente";
+	    		echo '<script language="javascript">alert("Registro completo");</script>';
 	    		mysqli_close($conn);
 	    		header('Location: ag_pacientes.php');
 	    	}else{
-	    		echo "algo esta mal, no se logro el registro";
+	    		 echo '<script language="javascript">alert("Hay problemas con el registro");</script>';
 	    		mysqli_close($conn);
-	    		header('Location: paginacentral.php');
 	    	}
     	}
 
