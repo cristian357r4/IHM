@@ -15,7 +15,22 @@
 
     <title>Smart Nutrition</title>
     <style>
-
+        #salirBtn{
+            display: block;
+            position: fixed;
+            top: 20px;
+            right: 10px;
+            z-index: 99;
+            font-size: 18px;
+            font-family: "Britannic Bold", monospace;
+            border: none;
+            outline: none;
+            background-color: #cfaaf3;
+            color: black;
+            cursor: pointer;
+            padding: 15px;
+            border-radius: 4px;
+        }
         #myBtn {
             display: block;
             position: fixed;
@@ -83,6 +98,8 @@
 <footer>
     <div class="card-footer text-muted fixed-bottom">
         <a id="myBtn" href="#" class="btn btn-default"  data-toggle="tooltip" title="Funcion no disponible!" role="button">Ajustes</a>
+
+        <a id="salirBtn" href="index.php" class="btn btn-secondary"  role="button">Salir</a>
 
         <a id="myBtn2" href="plan_alimentacion.php" class="btn btn-default" role="button">Plan</a>
 
