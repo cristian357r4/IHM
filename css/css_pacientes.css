@@ -19,6 +19,12 @@
   background: #CFAAF3;
 }
 
+#dialog{
+  height: 52px;
+  width: 968px;
+  background-color: #00F;
+}
+
 /*-- ac_pacientes --*/
 
 .btn-buscar{
