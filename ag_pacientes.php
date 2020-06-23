@@ -7,10 +7,6 @@
 	<link rel="stylesheet" type="text/css" href="css/css_pacientes.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/util.css">
-	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    <link rel="stylesheet" href="/resources/demos/style.css">
-	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </head>
 <body>
 	<!-- Cabecera principal -->
@@ -150,9 +146,5 @@
 			</form>
 		</div>
 	</main>
-	<div id="dialog">
-		<p>Registro exitoso</p>
-	</div>
-	<script type="text/javascript" src="js/scriptventana.js"></script>
 </body>
 </html>
