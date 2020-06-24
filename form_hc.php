@@ -20,11 +20,13 @@
 
 	<!-- Contenido de la aplicacion -->
 	<main class="main">
-		<div class="container">
+		<img src="imagenes/page_buid.jpg">
+		<!--<div class="container">
 			<h1>Historia Clinica</h1>
-		</div>
+		</div>-->
+
 		<!-- Datos del paciente -->
-		<div class="wrap-input100 validate-input bg1">
+		<!--<div class="wrap-input100 validate-input bg1">
 			
 		</div>
 
@@ -89,7 +91,7 @@
 				</div>
 				<div class="wrap-input100 bg1 rs1-wrap-input100">
 					<h6>Antecedentes Familiares</h6>
-				</div>
+				</div>-->
 				<!--<input type="submit" class="btn-buscar" name="buscar" value="Aceptar">
 				<input type="reset" class="btn-buscar" name="cancelar" value="Cancelar">
 				<button class="btn-hc btn-buscar" name="buscar">
