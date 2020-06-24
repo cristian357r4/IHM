@@ -17,7 +17,7 @@
 	<!-- Cabecera principal -->
 	<header class="header">
 		<div class="container logo-per-container">
-			<a href="index.php" class="logo"><b>SMART NUTRITION</b></a>
+			<a href="paginacentral.php" class="logo"><b>SMART NUTRITION</b></a>
 			<h7 class="perfil">Nombre del licenciado</h7>
 		</div>
 	</header>

@@ -16,9 +16,9 @@
     if (mysqli_num_rows($result) > 0) {
   		mysqli_close($conn);
   		header('Location: paginacentral.php');
-	}else{
-		mysqli_close($conn);
-		header('Location: login_nutriologos.php');
-	}
+  	}else{
+  		mysqli_close($conn);
+  		header('Location: login_nutriologos.php');
+  	}
 
 ?>
