@@ -23,8 +23,12 @@
 		<div class="container">
 			<h1>Historia Clinica</h1>
 		</div>
-		
-		<div class="div-hc">
+		<!-- Datos del paciente -->
+		<div class="wrap-input100 validate-input bg1">
+			
+		</div>
+
+		<div class="wrap-input100 validate-input bg1 rs1-wrap-input100">
 			<form class="contact100-form validate-form">
 				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100">
 					<h6>Evaluacion Bioquimica</h6>
@@ -83,7 +87,7 @@
 						</tr>
 					</table>	
 				</div>
-				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100">
+				<div class="wrap-input100 bg1 rs1-wrap-input100">
 					<h6>Antecedentes Familiares</h6>
 				</div>
 				<!--<input type="submit" class="btn-buscar" name="buscar" value="Aceptar">

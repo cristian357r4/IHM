@@ -13,6 +13,7 @@
 ?>
 
 		<!-- Formulario de ingresar personas (actualizar datos) -->
+		<input type="text" name="" value="Nombre prueba">
 		<div class="wrap-contact100">
 			<form class="contact100-form validate-form" >
 				<div class="wrap-input100 validate-input bg1">
