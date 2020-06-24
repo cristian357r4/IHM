@@ -9,11 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 </head>
 <body>
-	<?php
-		include("conexion.php");
-		$query = "SELECT ID, NOMBRE,EDAD,SEXO,RELIGION,ESTADOCIVIL,OCUPACION,FECHADENACIMIENTO,TELEFONO,CORREO,PESO,ESTATURA FROM PACIENTE";
-		$resultado = mysqli_query($conn,$query);
-	?>
+	
 	<!-- Cabecera principal -->
 	<header class="header">
 		<div class="container logo-per-container">
@@ -97,25 +93,7 @@
 							</tr>	
 						</thead>
 						<tbody>
-							<?php while ($filas = mysqli_fetch_assoc($resultado))
-							?>
-							<tr class="tabla-tr">
-								<td class="tabla-td-th"><?php echo $filas['NOMBRE'] ?></td>
-								<td class="tabla-td-th"><?php echo $filas['EDAD'] ?></td>
-								<td class="tabla-td-th"><?php echo $filas['SEXO'] ?></td>
-								<td class="tabla-td-th"><?php echo $filas['RELIGION'] ?></td>
-								<td class="tabla-td-th"><?php echo $filas['ESTADOCIVIL'] ?></td>
-								<td class="tabla-td-th"><?php echo $filas['OCUPACION'] ?></td>
-								<td class="tabla-td-th"><?php echo $filas['FECHADENACIMIENTO'] ?></td>
-								<td class="tabla-td-th"><?php echo $filas['TELEFONO'] ?></td>
-								<td class="tabla-td-th"><?php echo $filas['CORREO'] ?></td>
-								<td class="tabla-td-th"><?php echo $filas['PESO'] ?></td>
-								<td class="tabla-td-th"><?php echo $filas['ESTATURA']?></td>
-								<td class="tabla-td-th">
-									<a href="">Eliminar</a>	
-								</td>
-							</tr>
-							<?php } ?>
+	
 						</tbody>
 					</table>
 			</form>
