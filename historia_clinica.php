@@ -75,7 +75,7 @@
 						</tr>
 					</thead>
 					<tbody>
-						<?php while($filas = mysqli_fetch_assoc($resultado)) { ?><?php } ?>
+						<?php while($filas = mysqli_fetch_assoc($resultado)) { ?>
 						<tr class="tabla-tr">
 							<td class="tabla-td-th"><?php echo $filas['NOMBRE'] ?></td>
 							<td class="tabla-td-th"><?php echo $filas['EDAD'] ?></td>
@@ -92,7 +92,7 @@
 								<a href="form_hc.php?ID=<?php echo $filas['ID'] ?>">Historia Clinica</a>
 							</td>
 						</tr>
-						<?php ?>	
+						<?php } ?>	
 					</tbody>
 				</table>
 			</form>
