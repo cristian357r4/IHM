@@ -79,7 +79,7 @@
 
 		<div>
 			<form class="contact100-form validate-form">
-				<h5>Borrar paciente paciente</h5>
+				<h5>Borrar paciente</h5>
 					<table class="tabla-consulta">
 						<thead>
 							<tr class="tabla-tr">
@@ -111,6 +111,9 @@
 								<td class="tabla-td-th"><?php echo $filas['CORREO'] ?></td>
 								<td class="tabla-td-th"><?php echo $filas['PESO'] ?></td>
 								<td class="tabla-td-th"><?php echo $filas['ESTATURA']?></td>
+								<td class="tabla-td-th">
+									<a href="eliminar.php?id=<?php echo $filas['ID'] ?>">Eliminar</a>
+								</td>
 							</tr>
 							<?php } ?>
 						</tbody>
