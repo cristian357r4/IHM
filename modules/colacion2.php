@@ -37,7 +37,7 @@
                     </tr>
                     <tr>
                         <th>
-                            <select class="selectpicker" multiple data-max-options="2" data-style="btn btn-primary btn-block" title="Cereales y Tuberculos">
+                            <select class="selectpicker" multiple data-max-options="1" data-style="btn btn-primary btn-block" title="Cereales y Tuberculos">
                                 <option>Bolillo sin migajon 1/3 pieza</option>
                                 <option>Elote blanco cocido 82g</option>
                                 <option>Palomitas sin grasa 2 y 1/2 tazas</option>
@@ -45,7 +45,7 @@
                                 <option>pasta cocida 1/2 taza</option>
                             </select>
                         </th>
-                        <td><a href="#" class="btn btn-primary btn-block disabled" style="font-family: 'Britannic Bold', monospace" role="button">2</a></td>
+                        <td><a href="#" class="btn btn-primary btn-block disabled" style="font-family: 'Britannic Bold', monospace" role="button">1</a></td>
                     </tr>
                     <tr>
                         <th>
@@ -58,18 +58,6 @@
                             </select>
                         </th>
                         <td><a href="#" class="btn btn-primary btn-block disabled" style="font-family: 'Britannic Bold', monospace" role="button">1</a></td>
-                    </tr>
-                    <tr>
-                        <th>
-                            <select class="selectpicker" multiple data-max-options="2" data-style="btn btn-primary btn-block" title="Lacteos">
-                                <option>Jocoque 2/4 de taza</option>
-                                <option>Leche evaporada Semi 1/2 taza</option>
-                                <option>Yogurth Ligth</option>
-                                <option>Leche de Soya 1 tza</option>
-                                <option>Leche entera 1 tza</option>
-                            </select>
-                        </th>
-                        <td><a href="#" class="btn btn-primary btn-block disabled" style="font-family: 'Britannic Bold', monospace" role="button">2</a></td>
                     </tr>
                     <tr>
                         <th>
