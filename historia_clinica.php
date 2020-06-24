@@ -92,10 +92,9 @@
 							<td class="tabla-td-th">
 								<a href="form_hc.php?ID=<?php echo $filas['ID'] ?>">Historia Clinica</a>
 							</td>
-						</tr>	
+						</tr>
+						<?php ?>	
 					</tbody>
-					
-				
 				</table>
 			</form>
 		</div>
