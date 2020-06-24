@@ -7,5 +7,11 @@
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mariadb://localhost:3306/nutritionsmart</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="nutritionsmart@107.180.41.126" uuid="c14e1c1b-78f6-4cf3-b9e7-fa201adb20d0">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://107.180.41.126:3306/nutritionsmart</jdbc-url>
+    </data-source>
   </component>
 </project>
