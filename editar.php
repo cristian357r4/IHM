@@ -99,31 +99,28 @@
     }
 ?>
 
-	
+<!--	
 <?php
-	if (isset($_POST['actualizar'])) {
-			$enombre = $_POST['nombre'];
-			$eedad = $_POST['edad'];
-			$esexo = $_POST['sexo'];
-			$ereligion = $_POST['religion'];
-			$eestadocivil = $_POST['estadocivil'];
-			$eocupacion = $_POST['ocupacion'];
-			$efecha = $_POST['fecha'];
-			$etelefono = $_POST['telefono'];
-			$ecorreo = $_POST['correo'];
-			$epeso = $_POST['peso'];
-			$eestatura = $_POST['estatura'];
+	/*if (isset($_POST['actualizar'])) {
+		$enombre = $_POST['nombre'];
+		$eedad = $_POST['edad'];
+		$esexo = $_POST['sexo'];
+		$ereligion = $_POST['religion'];
+		$eestadocivil = $_POST['estadocivil'];
+		$eocupacion = $_POST['ocupacion'];
+		$efecha = $_POST['fecha'];
+		$etelefono = $_POST['telefono'];
+		$ecorreo = $_POST['correo'];
+		$epeso = $_POST['peso'];
+		$eestatura = $_POST['estatura'];
 
-			$qeditar2 = "UPDATE PACIENTE SET NOMBRE='".$enombre."', EDAD='".$eedad."', SEXO='".$esexo."', RELIGION='".$ereligion."', ESTADOCIVIL='".$eestadocivil."', OCUPACION='".$eocupacion."', FECHADENACIMIENTO='".$efecha."', TELEFONO='".$efecha."', CORREO='".$ecorreo."', PESO='".$epeso."', ESTATURA='".$eestatura."'";
-			echo $qeditar2;
+		$qeditar2 = "UPDATE PACIENTE SET NOMBRE='".$enombre."', EDAD='".$eedad."', SEXO='".$esexo."', RELIGION='".$ereligion."', ESTADOCIVIL='".$eestadocivil."', OCUPACION='".$eocupacion."', FECHADENACIMIENTO='".$efecha."', TELEFONO='".$efecha."', CORREO='".$ecorreo."', PESO='".$epeso."', ESTATURA='".$eestatura."'";
 
-			$resultado2 = mysqli_query($conn,$qeditar2);
+		$resultado2 = mysqli_query($conn,$qeditar2);
 
-			echo $resultado2;
-
-			if ($enombre = 1) {
-				header('Location: co_pacientes.php');
-			}
-	}
+		if ($enombre = 1) {
+			header('Location: co_pacientes.php');
+		}
+	}*/
 ?>
-
+-->
