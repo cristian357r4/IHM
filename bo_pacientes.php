@@ -78,7 +78,7 @@
 		<input type="submit" class="btn-buscar" name="buscar" value="Buscar">
 
 		<div>
-			<form class="contact100-form validate-form">
+			<form class="contact100-form validate-form" action="con_pacientes.php">
 				<h5>Bajas paciente</h5>
 					<table class="tabla-consulta">
 						<thead>
@@ -94,9 +94,6 @@
 								<th class="tabla-td-th" id="correo">Email</th>
 								<th class="tabla-td-th" id="peso">Peso</th>
 								<th class="tabla-td-th" id="estatura">Estatura</th>
-								<th class="tabla-td-th">
-									Eliminar
-								</th>
 							</tr>	
 						</thead>
 						<tbody>
@@ -120,7 +117,6 @@
 							</tr>
 							<?php } ?>
 						</tbody>
-						
 					</table>
 			</form>
 		</div>
