@@ -9,6 +9,11 @@
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 </head>
 <body>
+	<?php
+		include("conexion.php");
+		$qactualizar = "SELECT ID,NOMBRE,EDAD,SEXO,RELIGION,ESTADOCIVIL,OCUPACION,FECHADENACIMIENTO,TELEFONO,CORREO,PESO,ESTATURA FROM PACIENTE";
+		$resultado = mysqli_query($conn,$qactualizar);
+	?>
 	<!-- Cabecera principal -->
 	<header class="header">
 		<div class="container logo-per-container">
@@ -66,16 +71,58 @@
 				</tr>
 			</table>
 		</div>
-		<div class="wrap-contact100">
+		<div class="wrap-input100 validate-input bg1">
 			<form class="contact100-form validate-form">
-				<h5>Actualizar paciente</h5>
-				<div class="wrap-input100 validate-input bg1">
-					<span class="label-input100">Busqueda</span>
-					<input class="input100" type="search" name="busqueda" id="busqueda" placeholder="Introduce nombre completo del paciente">
-				</div>
+				<span class="label-input100">Busqueda</span>
+				<input class="input100" type="search" name="busqueda" id="busqueda" placeholder="Introduce nombre completo del paciente">
 				<input type="submit" class="btn-buscar" name="buscar" value="Buscar">
-				<input type="reset" class="btn-buscar" name="borrar" value="Cancelar">
 			</form>
+		<div>
+
+			<div>
+				<form class="contact100-form validate-form">
+					<h5>Actualizar paciente</h5>
+						<table class="tabla-consulta">
+							<thead>
+								<tr class="tabla-tr">
+									<th class="tabla-td-th" id="nombre">Nombre</th>
+									<th class="tabla-td-th" id="edad">Edad</th>
+									<th class="tabla-td-th" id="sexo">Sexo</th>
+									<th class="tabla-td-th" id="religion">Religion</th>
+									<th class="tabla-td-th" id="estadocivil">Estado civil</th>
+									<th class="tabla-td-th" id="ocupacion">Ocupacion</th>
+									<th class="tabla-td-th" id="fecha">Fecha de nacimiento</th>
+									<th class="tabla-td-th" id="telefono">Telefono</th>
+									<th class="tabla-td-th" id="correo">Email</th>
+									<th class="tabla-td-th" id="peso">Peso</th>
+									<th class="tabla-td-th" id="estatura">Estatura</th>
+								</tr>	
+							</thead>
+							<tbody>
+								<?php while ($filas = mysqli_fetch_assoc($resultado)) {
+								?>
+								<tr class="tabla-tr">
+									<td class="tabla-td-th"><?php echo $filas['NOMBRE'] ?></td>
+									<td class="tabla-td-th"><?php echo $filas['EDAD'] ?></td>
+									<td class="tabla-td-th"><?php echo $filas['SEXO'] ?></td>
+									<td class="tabla-td-th"><?php echo $filas['RELIGION'] ?></td>
+									<td class="tabla-td-th"><?php echo $filas['ESTADOCIVIL'] ?></td>
+									<td class="tabla-td-th"><?php echo $filas['OCUPACION'] ?></td>
+									<td class="tabla-td-th"><?php echo $filas['FECHADENACIMIENTO'] ?></td>
+									<td class="tabla-td-th"><?php echo $filas['TELEFONO'] ?></td>
+									<td class="tabla-td-th"><?php echo $filas['CORREO'] ?></td>
+									<td class="tabla-td-th"><?php echo $filas['PESO'] ?></td>
+									<td class="tabla-td-th"><?php echo $filas['ESTATURA']?></td>
+									<td class="tabla-td-th">
+										<a href="editar.php?ID=<?php echo $filas['ID'] ?>">Editar</a>
+									</td>
+								</tr>
+								<?php } ?>
+							</tbody>
+						</table>
+				</form>
+			</div>
+
 			<div class="wrap-contact100">
 				<form class="contact100-form validate-form" method="POST" action="">
 					<div class="wrap-input100 validate-input bg1">
@@ -154,7 +201,6 @@
 					<input type="reset" class="btn" name="cancelar" value="Cancelar">
 				</form>
 			</div>
-		</div>
 	</main>
 </body>
 </html>
