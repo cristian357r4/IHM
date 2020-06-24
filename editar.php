@@ -8,12 +8,17 @@
 	$qeditar = "SELECT ID,NOMBRE,EDAD,SEXO,RELIGION,ESTADOCIVIL,OCUPACION,FECHADENACIMIENTO,TELEFONO,CORREO,PESO,ESTATURA FROM PACIENTE WHERE ID ='".$id."'";
 	$resultado = mysqli_query($conn,$qeditar);
 
-	while($fila = mysqli_fetch_assoc($resultado)){
+	echo $qeditar;
+	echo $resultado;
 
+	while($fila = mysqli_fetch_assoc($resultado)){
+		echo $fila;
 ?>
 
 		<!-- Formulario de ingresar personas (actualizar datos) -->
+		<label>Prueba</label>
 		<input type="text" name="" value="Nombre prueba">
+		
 		<div class="wrap-contact100">
 			<form class="contact100-form validate-form" >
 				<div class="wrap-input100 validate-input bg1">
