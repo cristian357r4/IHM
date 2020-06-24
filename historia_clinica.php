@@ -61,19 +61,18 @@
 				<table class="tabla-consulta">
 					<thead>
 						<tr class="tabla-tr">
-							<th class="tabla-td-th">Nombre</th>
-							<th class="tabla-td-th">Edad</th>
-							<th class="tabla-td-th">Sexo</th>
-							<th class="tabla-td-th">Religion</th>
-							<th class="tabla-td-th">Estado civil</th>
-							<th class="tabla-td-th">Ocupacion</th>
-							<th class="tabla-td-th">Fecha de nacimiento</th>
-							<th class="tabla-td-th">Telefono</th>
-							<th class="tabla-td-th">Email</th>
-							<th class="tabla-td-th">Peso</th>
-							<th class="tabla-td-th">Estatura</th>
-							<th class="tabla-td-th"></th>
-						</tr>	
+							<th class="tabla-td-th" id="nombre">Nombre</th>
+							<th class="tabla-td-th" id="edad">Edad</th>
+							<th class="tabla-td-th" id="sexo">Sexo</th>
+							<th class="tabla-td-th" id="religion">Religion</th>
+							<th class="tabla-td-th" id="estadocivil">Estado civil</th>
+							<th class="tabla-td-th" id="ocupacion">Ocupacion</th>
+							<th class="tabla-td-th" id="fecha">Fecha de nacimiento</th>
+							<th class="tabla-td-th" id="telefono">Telefono</th>
+							<th class="tabla-td-th" id="correo">Email</th>
+							<th class="tabla-td-th" id="peso">Peso</th>
+							<th class="tabla-td-th" id="estatura">Estatura</th>
+						</tr>
 					</thead>
 					<tbody>
 						<?php while($filas = mysqli_fetch_assoc($resultado)) { ?><?php } ?>
