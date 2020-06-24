@@ -5,12 +5,8 @@
 	include("conexion.php");
 
 	$id = $_GET['ID'];
-	echo  $id;
 	$qeditar = "SELECT ID,NOMBRE,EDAD,SEXO,RELIGION,ESTADOCIVIL,OCUPACION,FECHADENACIMIENTO,TELEFONO,CORREO,PESO,ESTATURA FROM PACIENTE WHERE ID ='".$id."'";
 	$resultado = mysqli_query($conn,$qeditar);
-
-	echo $qeditar;
-
 
 	while($fila = mysqli_fetch_assoc($resultado)){
 ?>
