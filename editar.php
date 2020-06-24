@@ -108,10 +108,11 @@
 				<input type="submit" class="btn" name="actualizar" value="Actualizar">
 				<input type="reset" class="btn" name="cancelar" value="Cancelar">
 			</form>
+			<?php } ?>
 		</div>
 	</body>
 </html>
-<?php } ?>
+
 
 <?php
 	if (isset($_POST['actualizar'])) {
@@ -127,11 +128,11 @@
 		$epeso = $_POST['peso'];
 		$eestatura = $_POST['estatura'];
 
-		$qeditar2 = "UPDATE PACIENTE SET NOMBRE='".$enombre."', EDAD='".$eedad."', SEXO='".$esexo."', RELIGION='".$ereligion."', ESTADOCIVIL='".$eestadocivil."', OCUPACION='".$eocupacion."', FECHADENACIMIENTO='".$efecha."', TELEFONO='".$efecha."', CORREO='".$ecorreo."', PESO='".$epeso."', ESTATURA='".$eestatura."'";
+		$qeditar2 = "UPDATE PACIENTE SET NOMBRE='".$enombre."', EDAD='".$eedad."', SEXO='".$esexo."', RELIGION='".$ereligion."', ESTADOCIVIL='".$eestadocivil."', OCUPACION='".$eocupacion."', FECHADENACIMIENTO='".$efecha."', TELEFONO='".$efecha."', CORREO='".$ecorreo."', PESO='".$epeso."', ESTATURA='".$eestatura."' WHERE ID='".$id."'";
 
 		$resultado2 = mysqli_query($conn,$qeditar2);
 
-		if ($enombre = 1) {
+		if ($id = 1) {
 			header('Location: co_pacientes.php');
 		}
 	}
