@@ -94,7 +94,6 @@
 							<?php while ($filas = mysqli_fetch_assoc($resultado)) {
 							?>
 							<tr>
-								<td><?php echo $filas['ID'] ?></td>
 								<td><?php echo $filas['NOMBRE'] ?></td>
 								<td><?php echo $filas['EDAD'] ?></td>
 								<td><?php echo $filas['SEXO'] ?></td>
