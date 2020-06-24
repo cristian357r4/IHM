@@ -9,6 +9,11 @@
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 </head>
 <body>
+	<?php
+		include("conexion.php");
+		$query = "SELECT ID, NOMBRE,EDAD,SEXO,RELIGION,ESTADOCIVIL,OCUPACION,FECHADENACIMIENTO,TELEFONO,CORREO,PESO,ESTATURA FROM PACIENTE";
+		$resultado = mysqli_query($conn,$query);
+	?>
 	<!-- Cabecera principal -->
 	<header class="header">
 		<div class="container logo-per-container">
