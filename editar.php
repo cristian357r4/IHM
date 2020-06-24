@@ -5,6 +5,7 @@
 	include("conexion.php");
 
 	$id = $_GET['ID'];
+	echo = $id;
 	$qeditar = "SELECT ID,NOMBRE,EDAD,SEXO,RELIGION,ESTADOCIVIL,OCUPACION,FECHADENACIMIENTO,TELEFONO,CORREO,PESO,ESTATURA FROM PACIENTE WHERE ID ='".$id."'";
 	$resultado = mysqli_query($conn,$qeditar);
 
@@ -12,7 +13,6 @@
 	echo $resultado;
 
 	while($fila = mysqli_fetch_assoc($resultado)){
-		echo $fila;
 ?>
 
 		<!-- Formulario de ingresar personas (actualizar datos) -->
