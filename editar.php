@@ -116,6 +116,7 @@
 
 <?php
 	if (isset($_POST['actualizar'])) {
+		$eid = $_POST['ID']
 		$enombre = $_POST['nombre'];
 		$eedad = $_POST['edad'];
 		$esexo = $_POST['sexo'];
@@ -128,7 +129,7 @@
 		$epeso = $_POST['peso'];
 		$eestatura = $_POST['estatura'];
 
-		$qeditar2 = "UPDATE PACIENTE SET NOMBRE='".$enombre."', EDAD='".$eedad."', SEXO='".$esexo."', RELIGION='".$ereligion."', ESTADOCIVIL='".$eestadocivil."', OCUPACION='".$eocupacion."', FECHADENACIMIENTO='".$efecha."', TELEFONO='".$efecha."', CORREO='".$ecorreo."', PESO='".$epeso."', ESTATURA='".$eestatura."' WHERE ID='".$id."'";
+		$qeditar2 = "UPDATE PACIENTE SET NOMBRE='".$enombre."', EDAD='".$eedad."', SEXO='".$esexo."', RELIGION='".$ereligion."', ESTADOCIVIL='".$eestadocivil."', OCUPACION='".$eocupacion."', FECHADENACIMIENTO='".$efecha."', TELEFONO='".$efecha."', CORREO='".$ecorreo."', PESO='".$epeso."', ESTATURA='".$eestatura."' WHERE ID='".$eid."'";
 
 		$resultado2 = mysqli_query($conn,$qeditar2);
 
