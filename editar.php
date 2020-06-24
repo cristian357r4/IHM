@@ -92,9 +92,9 @@
 			</form>
 			<?php ?>
 		</div>
-	
+<!--	
 <?php
-	if (isset($_GET['actualizar'])) {
+	/*if (isset($_GET['actualizar'])) {
 			$enombre = $_GET['nombre'];
 			$eedad = $_GET['edad'];
 			$esexo = $_GET['sexo'];
@@ -114,6 +114,6 @@
 			if ($enombre = 1) {
 				header('Location: con_pacientes.php');
 			}
-	}	
+	}*/	
 
-?>
+?>-->

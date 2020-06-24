@@ -85,17 +85,17 @@
 					<table class="tabla-consulta">
 						<thead>
 							<tr class="tabla-tr">
-								<th class="tabla-td-th" id="tnombre">Nombre</th>
-								<th class="tabla-td-th" id="tedad">Edad</th>
-								<th class="tabla-td-th" id="tsexo">Sexo</th>
-								<th class="tabla-td-th" id="treligion">Religion</th>
-								<th class="tabla-td-th" id="testadocivil">Estado civil</th>
-								<th class="tabla-td-th" id="tocupacion">Ocupacion</th>
-								<th class="tabla-td-th" id="tfecha">Fecha de nacimiento</th>
-								<th class="tabla-td-th" id="ttelefono">Telefono</th>
-								<th class="tabla-td-th" id="tcorreo">Email</th>
-								<th class="tabla-td-th" id="tpeso">Peso</th>
-								<th class="tabla-td-th" id="testatura">Estatura</th>
+								<th class="tabla-td-th" id="nombre">Nombre</th>
+								<th class="tabla-td-th" id="edad">Edad</th>
+								<th class="tabla-td-th" id="sexo">Sexo</th>
+								<th class="tabla-td-th" id="religion">Religion</th>
+								<th class="tabla-td-th" id="estadocivil">Estado civil</th>
+								<th class="tabla-td-th" id="ocupacion">Ocupacion</th>
+								<th class="tabla-td-th" id="fecha">Fecha de nacimiento</th>
+								<th class="tabla-td-th" id="telefono">Telefono</th>
+								<th class="tabla-td-th" id="correo">Email</th>
+								<th class="tabla-td-th" id="peso">Peso</th>
+								<th class="tabla-td-th" id="estatura">Estatura</th>
 							</tr>	
 						</thead>
 						<tbody>
