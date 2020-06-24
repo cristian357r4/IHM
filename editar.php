@@ -5,19 +5,17 @@
 	include("conexion.php");
 
 	$id = $_GET['ID'];
-	echo = $id;
+	echo  $id;
 	$qeditar = "SELECT ID,NOMBRE,EDAD,SEXO,RELIGION,ESTADOCIVIL,OCUPACION,FECHADENACIMIENTO,TELEFONO,CORREO,PESO,ESTATURA FROM PACIENTE WHERE ID ='".$id."'";
 	$resultado = mysqli_query($conn,$qeditar);
 
 	echo $qeditar;
-	echo $resultado;
+
 
 	while($fila = mysqli_fetch_assoc($resultado)){
 ?>
 
 		<!-- Formulario de ingresar personas (actualizar datos) -->
-		<label>Prueba</label>
-		<input type="text" name="" value="Nombre prueba">
 		
 		<div class="wrap-contact100">
 			<form class="contact100-form validate-form" >
@@ -97,6 +95,9 @@
 				<input type="reset" class="btn" name="cancelar" value="Cancelar">
 			</form>
 		</div>
+<?php
+    }
+?>
 
 	
 <?php
@@ -121,8 +122,8 @@
 			echo $resultado2;
 
 			if ($enombre = 1) {
-				header('Location: con_pacientes.php');
+				header('Location: co_pacientes.php');
 			}
-	}	
-
+	}
 ?>
+
