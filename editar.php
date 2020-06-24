@@ -113,9 +113,8 @@
 </html>
 <?php } ?>
 
-<!--	
 <?php
-	/*if (isset($_POST['actualizar'])) {
+	if (isset($_POST['actualizar'])) {
 		$enombre = $_POST['nombre'];
 		$eedad = $_POST['edad'];
 		$esexo = $_POST['sexo'];
@@ -135,6 +134,5 @@
 		if ($enombre = 1) {
 			header('Location: co_pacientes.php');
 		}
-	}*/
+	}
 ?>
--->
