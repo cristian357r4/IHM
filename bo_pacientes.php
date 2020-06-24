@@ -9,7 +9,11 @@
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 </head>
 <body>
-	
+	<?php
+		include("conexion.php");
+		$qborrar = "SELECT ID,NOMBRE,EDAD,SEXO,RELIGION,ESTADOCIVIL,OCUPACION,FECHADENACIMIENTO,TELEFONO,CORREO,PESO,ESTATURA FROM PACIENTE";
+		$resultado = mysqli_query($conn,$qborrar);
+	?>
 	<!-- Cabecera principal -->
 	<header class="header">
 		<div class="container logo-per-container">
@@ -74,8 +78,8 @@
 		<input type="submit" class="btn-buscar" name="buscar" value="Buscar">
 
 		<div>
-			<form class="contact100-form validate-form" action="con_pacientes.php">
-				<h5>Bajas paciente</h5>
+			<form class="contact100-form validate-form">
+				<h5>Borrar paciente paciente</h5>
 					<table class="tabla-consulta">
 						<thead>
 							<tr class="tabla-tr">
@@ -93,7 +97,22 @@
 							</tr>	
 						</thead>
 						<tbody>
-	
+							<?php while ($filas = mysqli_fetch_assoc($resultado)) {
+							?>
+							<tr class="tabla-tr">
+								<td class="tabla-td-th"><?php echo $filas['NOMBRE'] ?></td>
+								<td class="tabla-td-th"><?php echo $filas['EDAD'] ?></td>
+								<td class="tabla-td-th"><?php echo $filas['SEXO'] ?></td>
+								<td class="tabla-td-th"><?php echo $filas['RELIGION'] ?></td>
+								<td class="tabla-td-th"><?php echo $filas['ESTADOCIVIL'] ?></td>
+								<td class="tabla-td-th"><?php echo $filas['OCUPACION'] ?></td>
+								<td class="tabla-td-th"><?php echo $filas['FECHADENACIMIENTO'] ?></td>
+								<td class="tabla-td-th"><?php echo $filas['TELEFONO'] ?></td>
+								<td class="tabla-td-th"><?php echo $filas['CORREO'] ?></td>
+								<td class="tabla-td-th"><?php echo $filas['PESO'] ?></td>
+								<td class="tabla-td-th"><?php echo $filas['ESTATURA']?></td>
+							</tr>
+							<?php } ?>
 						</tbody>
 					</table>
 			</form>

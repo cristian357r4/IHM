@@ -11,7 +11,7 @@
 <body>
 	<?php
 		include("conexion.php");
-		$query = "SELECT ID, NOMBRE,EDAD,SEXO,RELIGION,ESTADOCIVIL,OCUPACION,FECHADENACIMIENTO,TELEFONO,CORREO,PESO,ESTATURA FROM PACIENTE";
+		$query = "SELECT ID,NOMBRE,EDAD,SEXO,RELIGION,ESTADOCIVIL,OCUPACION,FECHADENACIMIENTO,TELEFONO,CORREO,PESO,ESTATURA FROM PACIENTE";
 		$resultado = mysqli_query($conn,$query);
 	?>
 	<!-- Cabecera principal -->
@@ -71,8 +71,9 @@
 				</tr>
 			</table>
 		</div>
+
 		<div>
-			<form class="contact100-form validate-form" action="con_pacientes.php">
+			<form class="contact100-form validate-form">
 				<h5>Consulta paciente</h5>
 					<table class="tabla-consulta">
 						<thead>
