@@ -95,21 +95,21 @@
 	
 <?php
 	if (isset($_GET['actualizar'])) {
-			$enombre = $_GET['tnombre'];
-			$eedad = $_GET['tedad'];
-			$esexo = $_GET['tsexo'];
-			$ereligion = $_GET['treligion'];
-			$eestadocivil = $_GET['testadocivil'];
-			$eocupacion = $_GET['tocupacion'];
-			$efecha = $_GET['tfecha'];
-			$etelefono = $_GET['ttelefono'];
-			$ecorreo = $_GET['tcorreo'];
-			$epeso = $_GET['tpeso'];
-			$eestatura = $_GET['testatura'];
+			$enombre = $_GET['nombre'];
+			$eedad = $_GET['edad'];
+			$esexo = $_GET['sexo'];
+			$ereligion = $_GET['religion'];
+			$eestadocivil = $_GET['estadocivil'];
+			$eocupacion = $_GET['ocupacion'];
+			$efecha = $_GET['fecha'];
+			$etelefono = $_GET['telefono'];
+			$ecorreo = $_GET['correo'];
+			$epeso = $_GET['peso'];
+			$eestatura = $_GET['estatura'];
 
 			$qeditar2 = "UPDATE PACIENTE SET NOMBRE='".$enombre."', EDAD='".$eedad."', SEXO='".$esexo."', RELIGION='".$ereligion."', ESTADOCIVIL='".$eestadocivil."', OCUPACION='".$eocupacion."', FECHADENACIMIENTO='".$efecha."', TELEFONO='".$efecha."', CORREO='".$ecorreo."', PESO='".$epeso."', ESTATURA='".$eestatura."'";
 
-			mysqli_query($conn,$qeditar2);
+			$resultado2 = mysqli_query($conn,$qeditar2);
 
 			if ($enombre = 1) {
 				header('Location: con_pacientes.php');
