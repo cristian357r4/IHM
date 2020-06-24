@@ -5,6 +5,13 @@
       <webServer id="9c6dbbb6-2168-49c2-9d5a-3e85782aa181" name="localhost" url="http://localhost/Proyectos/IHM/">
         <fileTransfer mountedRoot="C:\xampp\htdocs\Proyectos\IHM" accessType="MOUNT" port="0" />
       </webServer>
+      <webServer id="86e00de6-86e2-4bd0-9710-678ccd764593" name="smart" url="http://smart-nutrition.com.mx">
+        <fileTransfer rootFolder="/public_html" host="smart-nutrition.com.mx" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>
