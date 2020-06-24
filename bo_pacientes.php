@@ -112,7 +112,7 @@
 								<td class="tabla-td-th"><?php echo $filas['PESO'] ?></td>
 								<td class="tabla-td-th"><?php echo $filas['ESTATURA']?></td>
 								<td class="tabla-td-th">
-									<a href="eliminar.php?id=<?php echo $filas['ID'] ?>">Eliminar</a>
+									<a href="eliminar.php?ID=<?php echo $filas['ID'] ?>">Eliminar</a>
 								</td>
 							</tr>
 							<?php } ?>
