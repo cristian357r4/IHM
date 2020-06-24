@@ -132,7 +132,7 @@
 
 		$resultado2 = mysqli_query($conn,$qeditar2);
 
-		if ($id = 1) {
+		if ($resultado2) {
 			header('Location: co_pacientes.php');
 		}
 	}
