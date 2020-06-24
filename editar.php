@@ -14,7 +14,7 @@
 
 	<!-- Formulario de ingresar personas (actualizar datos) -->
 		<div class="wrap-contact100">
-			<form class="contact100-form validate-form" method="POST" action="editar.php">
+			<form class="contact100-form validate-form">
 				<div class="wrap-input100 validate-input bg1">
 					<span class="label-input100">Nombre</span>
 					<input class="input100" type="text" name="nombre" id="nombre" placeholder="Introduce nombre" value="<?php echo $fila['NOMBRE'] ?>">
