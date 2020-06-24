@@ -141,7 +141,7 @@
 				</div>
 				<br>
 
-				<input type="submit" class="btn" id="opener" name="aceptar" value="Aceptar">
+				<input type="submit" class="btn" name="aceptar" value="Aceptar">
 				<input type="reset" class="btn" name="cancelar" value="Cancelar">
 			</form>
 		</div>
