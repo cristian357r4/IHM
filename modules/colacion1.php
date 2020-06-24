@@ -49,30 +49,6 @@
                     </tr>
                     <tr>
                         <th>
-                            <select class="selectpicker" multiple data-max-options="1" data-style="btn btn-primary btn-block" title="Origen Animal">
-                                <option>Atun en agua 1/5 de taza</option>
-                                <option>Clara de huevo 2 piezas</option>
-                                <option>Pechuga de pollo sin piel 30g</option>
-                                <option>Atun en aceite 25g</option>
-                                <option>Barbacoa maciza 50g</option>
-                            </select>
-                        </th>
-                        <td><a href="#" class="btn btn-primary btn-block disabled" style="font-family: 'Britannic Bold', monospace" role="button">1</a></td>
-                    </tr>
-                    <tr>
-                        <th>
-                            <select class="selectpicker" multiple data-max-options="2" data-style="btn btn-primary btn-block" title="Lacteos">
-                                <option>Jocoque 2/4 de taza</option>
-                                <option>Leche evaporada Semi 1/2 taza</option>
-                                <option>Yogurth Ligth</option>
-                                <option>Leche de Soya 1 tza</option>
-                                <option>Leche entera 1 tza</option>
-                            </select>
-                        </th>
-                        <td><a href="#" class="btn btn-primary btn-block disabled" style="font-family: 'Britannic Bold', monospace" role="button">2</a></td>
-                    </tr>
-                    <tr>
-                        <th>
                             <select class="selectpicker" multiple data-max-options="1" data-style="btn btn-primary btn-block" title=" Aceites">
                                 <option>Aceite Comestible 1 ctda.</option>
                                 <option>Aguacate has/mediano 31g</option>
