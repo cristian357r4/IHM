@@ -13,6 +13,24 @@
 
 		<!-- Formulario de ingresar personas (actualizar datos) -->
 		
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Pacientes</title>
+	<link rel="stylesheet" type="text/css" href="css/css_principal.css">
+	<link rel="stylesheet" type="text/css" href="css/css_pacientes.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+</head>
+<body>
+	<!-- Cabecera principal -->
+	<header class="header">
+		<div class="container logo-per-container">
+			<a href="paginacentral.php" class="logo"><b>SMART NUTRITION</b></a>
+			<h7 class="perfil">Nombre del licenciado</h7>
+		</div>
+	</header>
 		<div class="wrap-contact100">
 			<form class="contact100-form validate-form" >
 				<div class="wrap-input100 validate-input bg1">
@@ -91,9 +109,9 @@
 				<input type="reset" class="btn" name="cancelar" value="Cancelar">
 			</form>
 		</div>
-<?php
-    }
-?>
+	</body>
+</html>
+<?php } ?>
 
 <!--	
 <?php
