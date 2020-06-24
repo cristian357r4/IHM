@@ -69,6 +69,8 @@
 
 .tabla-tr:nth-child(even){
   background-color: #CFAAF3;
+  font-family: 'Changa', sans-serif;
+  font-size: 0.6em;
 }
 
 /*-- Historia clinica --*/
