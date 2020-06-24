@@ -9,6 +9,11 @@
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 </head>
 <body>
+	<?php
+		include("conexion.php");
+		$query = "SELECT ID, NOMBRE,EDAD,SEXO,RELIGION,ESTADOCIVIL,OCUPACION,FECHADENACIMIENTO,TELEFONO,CORREO,PESO,ESTATURA FROM PACIENTE";
+		$resultado = mysqli_query($conn,$query);
+	?>
 	<!-- Cabecera principal -->
 	<header class="header">
 		<div class="container logo-per-container">
@@ -70,20 +75,40 @@
 			<form class="contact100-form validate-form" action="con_pacientes.php">
 				<h5>Consulta paciente</h5>
 					<table class="tabla-consulta">
-						<tr class="tabla-tr">
-							<th class="tabla-td-th" id="nombre">Nombre</th>
-							<th class="tabla-td-th" id="edad">Edad</th>
-							<th class="tabla-td-th" id="sexo">Sexo</th>
-							<th class="tabla-td-th" id="religion">Religion</th>
-							<th class="tabla-td-th" id="estadocivil">Estado civil</th>
-							<th class="tabla-td-th" id="ocupacion">Ocupacion</th>
-							<th class="tabla-td-th" id="fecha">Fecha de nacimiento</th>
-							<th class="tabla-td-th" id="telefono">Telefono</th>
-							<th class="tabla-td-th" id="correo">Email</th>
-							<th class="tabla-td-th" id="peso">Peso</th>
-							<th class="tabla-td-th" id="estatura">Estatura</th>
-						</tr>
-						
+						<thead>
+							<tr class="tabla-tr">
+								<th class="tabla-td-th" id="nombre">Nombre</th>
+								<th class="tabla-td-th" id="edad">Edad</th>
+								<th class="tabla-td-th" id="sexo">Sexo</th>
+								<th class="tabla-td-th" id="religion">Religion</th>
+								<th class="tabla-td-th" id="estadocivil">Estado civil</th>
+								<th class="tabla-td-th" id="ocupacion">Ocupacion</th>
+								<th class="tabla-td-th" id="fecha">Fecha de nacimiento</th>
+								<th class="tabla-td-th" id="telefono">Telefono</th>
+								<th class="tabla-td-th" id="correo">Email</th>
+								<th class="tabla-td-th" id="peso">Peso</th>
+								<th class="tabla-td-th" id="estatura">Estatura</th>
+							</tr>	
+						</thead>
+						<tbody>
+							<?php while ($filas = mysqli_fetch_assoc($resultado)) {
+							?>
+							<tr>
+								<td><?php echo $filas['ID'] ?></td>
+								<td><?php echo $filas['NOMBRE'] ?></td>
+								<td><?php echo $filas['EDAD'] ?></td>
+								<td><?php echo $filas['SEXO'] ?></td>
+								<td><?php echo $filas['RELIGION'] ?></td>
+								<td><?php echo $filas['ESTADOCIVIL'] ?></td>
+								<td><?php echo $filas['OCUPACION'] ?></td>
+								<td><?php echo $filas['FECHADENACIMIENTO'] ?></td>
+								<td><?php echo $filas['TELEFONO'] ?></td>
+								<td><?php echo $filas['CORREO'] ?></td>
+								<td><?php echo $filas['PESO'] ?></td>
+								<td><?php echo $filas['ESTATURA']?></td>
+							</tr>
+							<?php } ?>
+						</tbody>
 					</table>
 			</form>
 		</div>
