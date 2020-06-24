@@ -71,12 +71,15 @@
 				</tr>
 			</table>
 		</div>
+		
+		<!-- Barra de busqueda -->
 		<div class="wrap-input100 validate-input bg1">
 			<span class="label-input100">Busqueda</span>
 			<input class="input100" type="search" name="busqueda" id="busqueda" placeholder="Introduce nombre completo del paciente">
 		</div>
 		<input type="submit" class="btn-buscar" name="buscar" value="Buscar">
 
+		<!-- Tabla de pacientes -->
 		<div>
 			<form class="contact100-form validate-form">
 				<h5>Borrar paciente</h5>
