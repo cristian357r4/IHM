@@ -17,7 +17,11 @@
 		 y se coloca el boton de salida de la aplicacion -->
 	<div class="exit">
 		<button class="bottom rounded">
-			<span id="text-black">Salir</span>
+			<span id="text-black"> 
+				<a href="login_nutriologos.php">
+					Salir
+				</a>	
+			</span>
 		</button>
 	</div>
 	<!-- Menu de navegacion -->
