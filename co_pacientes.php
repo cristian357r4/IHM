@@ -94,17 +94,17 @@
 							<?php while ($filas = mysqli_fetch_assoc($resultado)) {
 							?>
 							<tr class="tabla-tr">
-								<td><?php echo $filas['NOMBRE'] ?></td>
-								<td><?php echo $filas['EDAD'] ?></td>
-								<td><?php echo $filas['SEXO'] ?></td>
-								<td><?php echo $filas['RELIGION'] ?></td>
-								<td><?php echo $filas['ESTADOCIVIL'] ?></td>
-								<td><?php echo $filas['OCUPACION'] ?></td>
-								<td><?php echo $filas['FECHADENACIMIENTO'] ?></td>
-								<td><?php echo $filas['TELEFONO'] ?></td>
-								<td><?php echo $filas['CORREO'] ?></td>
-								<td><?php echo $filas['PESO'] ?></td>
-								<td><?php echo $filas['ESTATURA']?></td>
+								<td class="tabla-td-th"><?php echo $filas['NOMBRE'] ?></td>
+								<td class="tabla-td-th"><?php echo $filas['EDAD'] ?></td>
+								<td class="tabla-td-th"><?php echo $filas['SEXO'] ?></td>
+								<td class="tabla-td-th"><?php echo $filas['RELIGION'] ?></td>
+								<td class="tabla-td-th"><?php echo $filas['ESTADOCIVIL'] ?></td>
+								<td class="tabla-td-th"><?php echo $filas['OCUPACION'] ?></td>
+								<td class="tabla-td-th"><?php echo $filas['FECHADENACIMIENTO'] ?></td>
+								<td class="tabla-td-th"><?php echo $filas['TELEFONO'] ?></td>
+								<td class="tabla-td-th"><?php echo $filas['CORREO'] ?></td>
+								<td class="tabla-td-th"><?php echo $filas['PESO'] ?></td>
+								<td class="tabla-td-th"><?php echo $filas['ESTATURA']?></td>
 							</tr>
 							<?php } ?>
 						</tbody>
