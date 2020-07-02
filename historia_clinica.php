@@ -43,6 +43,9 @@
 						<a href="ag_pacientes.php">Pacientes</a>
 					</td>
 					<td>
+						<a href="control_alimentacion.php">Tabla de alimenticion</a>
+					</td>
+					<td>
 						<a href="configuracion.php">Configuracion</a>
 					</td>
 				</tr>

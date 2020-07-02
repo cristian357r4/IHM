@@ -1,0 +1,35 @@
+#tabla-cereales{
+	background-color: #c55a11;
+}
+
+#tabla-verduras{
+	background-color: #94d153;
+}
+
+#tabla-frutas{
+	background-color: #92d050;
+}
+
+#tabla-lechesemi, #tabla-lechedes, #tabla-lecheentera{
+	background-color: #5b9bd5;
+}
+
+#tabla-animal, #tabla-muybajo, #tabla-bajo, #tabla-moderado{
+	background-color: #ffc000;
+}
+
+#tabla-azucar{
+	background-color: #bd1986;
+}
+
+#tabla-aceite{
+	background-color: #00b050;
+}
+
+#tabla-sin, #tabla-con{
+	background-color: #a8d08d;
+}
+
+#tabla-leguminosa{
+	background-color: #c45911;
+}

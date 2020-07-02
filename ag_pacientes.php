@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no" charset="utf-8">
 	<title>Pacientes</title>
 	<link rel="stylesheet" type="text/css" href="css/css_principal.css">
 	<link rel="stylesheet" type="text/css" href="css/css_pacientes.css">
+	<link rel="stylesheet" type="text/css" href="css/select2.css">
+	<link rel="stylesheet" type="text/css" href="css/select2.min.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 </head>
@@ -20,7 +22,11 @@
 		 y se coloca el boton de salida de la aplicacion -->
 	<div class="exit">
 		<button class="bottom rounded">
-			<span id="text-black">Salir</span>
+			<span id="text-black"> 
+				<a href="login_nutriologos.php">
+					Salir
+				</a>	
+			</span>
 		</button>
 	</div>
 	<!-- Menu de navegacion -->
@@ -36,6 +42,9 @@
 					</td>
 					<td>
 						<a href="ag_pacientes.php">Pacientes</a>
+					</td>
+					<td>
+						<a href="control_alimentacion.php">Tabla de alimenticion</a>
 					</td>
 					<td>
 						<a href="configuracion.php">Configuracion</a>
@@ -84,7 +93,7 @@
 				<div class="wrap-input100 input100-select bg1">
 					<span class="label-input100">Sexo</span>
 						<div>
-							<select name="sexo" id="sexo">
+							<select class="js-select2 select2-hidden-accessible" name="sexo" id="sexo">
 								<option value="masculino">Masculino</option>
 								<option value="femenino">Femenino</option>
 							</select>	

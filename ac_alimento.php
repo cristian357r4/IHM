@@ -1,15 +1,18 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
 	<meta charset="utf-8">
-	<title>Smart Nutrition</title>
+	<title>Tabla de alimentacion</title>
 	<link rel="stylesheet" type="text/css" href="css/css_principal.css">
+	<link rel="stylesheet" type="text/css" href="css/css_pacientes.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/util.css">
 </head>
 <body>
 	<!-- Cabecera principal -->
 	<header class="header">
 		<div class="container logo-per-container">
-			<a href="index.php" class="logo"><b>SMART NUTRITION</b></a>
+			<a href="paginacentral.php" class="logo"><b>SMART NUTRITION</b></a>
 			<h7 class="perfil">Nombre del licenciado</h7>
 		</div>
 	</header>
@@ -48,10 +51,27 @@
 			</table>
 		</nav>
 	</div>
-	<!-- Contenido de la aplicacion -->
+	<!-- Contenido de la aplicacion --> 
 	<main class="main">
-		<div class="container">
-			<img src="imagenes/logo_sn.jpeg" class="logo_opaco">
+		<div class="container navigation">
+			<h1>Tablas de alimentación</h1>
+			<!--<img src="imagenes/logo_sn.jpeg" class="logo_opaco">-->
+			<table>
+				<tr>
+					<td>
+						<a href="ag_alimento.php">Agregar</a>
+					</td>
+					<td>
+						<a href="ac_alimento.php">Actualizar</a>
+					</td>
+					<td>
+						<a href="bo_alimento.php">Borrar</a>
+					</td>
+					<td>
+						<a href="co_alimento.php">Consultar</a>
+					</td>
+				</tr>
+			</table>
 		</div>
 	</main>
 </body>
