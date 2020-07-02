@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no" charset="utf-8">
 	<title>Tabla de alimentacion</title>
 	<link rel="stylesheet" type="text/css" href="css/css_principal.css">
 	<link rel="stylesheet" type="text/css" href="css/css_pacientes.css">
@@ -11,9 +11,9 @@
 </head>
 <body>
 	<?php 
-		include ("conexion.php");
-		$queryalimento = "SELECT ID,INGREDIENTE,CANTIDAD FROM TABLASALIMENTICION";
-		$resultadoalimento = mysqli_query($conn,$queryalimento);
+		include("conexion.php");
+		$querycereales = "SELECT ID,INGREDIENTE,CANTIDAD FROM TABLASALIMENTICION WHERE GRUPOALIMENTICIO = 'Cereales y tubérculos'";
+		$resultadocereales = mysqli_query($conn,$querycereales);
 	?>
 	<!-- Cabecera principal -->
 	<header class="header">
@@ -95,11 +95,11 @@
 				</thead>
 				<tbody>
 					<?php 
-						while($filas = mysqli_fetch_assoc($resultadoalimento)){
+						while($filacereales = mysqli_fetch_assoc($resultadocereales)){
 					?>
 					<tr>
-						<td><?php echo $filas['INGREDIENTE']?></td>
-						<td><?php echo $filas['CANTIDAD']?></td>
+						<td><?php echo $filacereales['INGREDIENTE']?></td>
+						<td><?php echo $filacereales['CANTIDAD']?></td>
 						<td>
 							<a href="">
 								<img src="imagenes/iconos/lapiz.png" width="20" height="20">
@@ -131,12 +131,8 @@
 					</tr>
 				</thead>
 				<tbody>
-					<?php 
-						while($filas = mysqli_fetch_assoc($resultadoalimento)){
-					?>
 					<tr>
-						<td><?php echo $filas['INGREDIENTE']?></td>
-						<td><?php echo $filas['CANTIDAD']?></td>
+						
 						<td>
 							<a href="">
 								<img src="imagenes/iconos/lapiz.png" width="20" height="20">
@@ -169,8 +165,7 @@
 				</thead>
 				<tbody>
 					<tr>
-						<td><?php echo $filas['INGREDIENTE']?></td>
-						<td><?php echo $filas['CANTIDAD']?></td>
+						
 						<td>
 							<a href="">
 								<img src="imagenes/iconos/lapiz.png" width="20" height="20">
@@ -202,8 +197,7 @@
 				</thead>
 				<tbody>
 					<tr>
-						<td><?php echo $filas['INGREDIENTE']?></td>
-						<td><?php echo $filas['CANTIDAD']?></td>
+						
 						<td>
 							<a href="">
 								<img src="imagenes/iconos/lapiz.png" width="20" height="20">
@@ -229,8 +223,7 @@
 				</thead>
 				<tbody>
 					<tr>
-						<td><?php echo $filas['INGREDIENTE']?></td>
-						<td><?php echo $filas['CANTIDAD']?></td>
+						
 						<td>
 							<a href="">
 								<img src="imagenes/iconos/lapiz.png" width="20" height="20">
@@ -256,8 +249,7 @@
 				</thead>
 				<tbody>
 					<tr>
-						<td><?php echo $filas['INGREDIENTE']?></td>
-						<td><?php echo $filas['CANTIDAD']?></td>
+						
 						<td>
 							<a href="">
 								<img src="imagenes/iconos/lapiz.png" width="20" height="20">
@@ -292,8 +284,7 @@
 				</thead>
 				<tbody>
 					<tr>
-						<td><?php echo $filas['INGREDIENTE']?></td>
-						<td><?php echo $filas['CANTIDAD']?></td>
+						
 						<td>
 							<a href="">
 								<img src="imagenes/iconos/lapiz.png" width="20" height="20">
@@ -319,8 +310,7 @@
 				</thead>
 				<tbody>
 					<tr>
-						<td><?php echo $filas['INGREDIENTE']?></td>
-						<td><?php echo $filas['CANTIDAD']?></td>
+						
 						<td>
 							<a href="">
 								<img src="imagenes/iconos/lapiz.png" width="20" height="20">
@@ -346,8 +336,7 @@
 				</thead>
 				<tbody>
 					<tr>
-						<td><?php echo $filas['INGREDIENTE']?></td>
-						<td><?php echo $filas['CANTIDAD']?></td>
+						
 						<td>
 							<a href="">
 								<img src="imagenes/iconos/lapiz.png" width="20" height="20">
@@ -382,8 +371,7 @@
 				</thead>
 				<tbody>
 					<tr>
-						<td><?php echo $filas['INGREDIENTE']?></td>
-						<td><?php echo $filas['CANTIDAD']?></td>
+						
 						<td>
 							<a href="">
 								<img src="imagenes/iconos/lapiz.png" width="20" height="20">
@@ -418,8 +406,7 @@
 				</thead>
 				<tbody>
 					<tr>
-						<td><?php echo $filas['INGREDIENTE']?></td>
-						<td><?php echo $filas['CANTIDAD']?></td>
+						
 						<td>
 							<a href="">
 								<img src="imagenes/iconos/lapiz.png" width="20" height="20">
@@ -439,8 +426,7 @@
 				</thead>
 				<tbody>
 					<tr>
-						<td><?php echo $filas['INGREDIENTE']?></td>
-						<td><?php echo $filas['CANTIDAD']?></td>
+						
 						<td>
 							<a href="">
 								<img src="imagenes/iconos/lapiz.png" width="20" height="20">
@@ -472,8 +458,7 @@
 				</thead>
 				<tbody>
 					<tr>
-						<td><?php echo $filas['INGREDIENTE']?></td>
-						<td><?php echo $filas['CANTIDAD']?></td>
+						
 						<td>
 							<a href="">
 								<img src="imagenes/iconos/lapiz.png" width="20" height="20">
