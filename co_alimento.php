@@ -116,8 +116,8 @@
 			</table>
 		</div>
 		<br><br>
-
-		<div><!-- Verduras -->
+		<!--
+		<div>
 			<table>
 				<thead>
 					<tr id="tabla-verduras">
@@ -149,7 +149,7 @@
 		</div>
 		<br><br>
 
-		<div><!-- Frutas -->
+		<div>
 			<table>
 				<thead>
 					<tr id="tabla-frutas">
@@ -181,7 +181,7 @@
 		</div>
 		<br><br>
 
-		<div><!-- Leche semidescremada, descremada y entera -->
+		<div>
 			<table>
 				<thead>
 					<tr id="tabla-lechesemi">
@@ -265,7 +265,7 @@
 		</div>
 		<br><br>
 
-		<div><!-- Alimentos de origen animal -->
+		<div>
 			<table>
 				<thead>
 					<tr id="tabla-animal">
@@ -352,7 +352,7 @@
 		</div>
 		<br><br>
 
-		<div><!-- Azúcares -->
+		<div>
 			<table>
 				<thead>
 					<tr id="tabla-azucar">
@@ -387,7 +387,7 @@
 		</div>
 		<br><br>
 
-		<div><!-- Aceite y grasas -->
+		<div>
 			<table>
 				<thead>
 					<tr id="tabla-aceite">
@@ -442,7 +442,7 @@
 		</div>
 		<br><br>
 
-		<div><!-- Leguminosas -->
+		<div>
 			<table>
 				<thead>
 					<tr id="tabla-leguminosa">
@@ -472,7 +472,7 @@
 				</tbody>
 			</table>
 		</div>
-		<br><br>
+		<br><br>-->
 	</main>
 </body>
 </html>
