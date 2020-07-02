@@ -12,7 +12,7 @@
 <body>
 	<?php 
 		include ("conexion.php");
-		$queryalimento = "SELECT ID,INGREDIENTE,CANTIDAD,GRUPOALIMENTICIO FROM TABLASALIMENTICION";
+		$queryalimento = "SELECT ID,INGREDIENTE,CANTIDAD FROM TABLASALIMENTICION";
 		$resultadoalimento = mysqli_query($conn,$queryalimento);
 	?>
 	<!-- Cabecera principal -->
@@ -485,7 +485,6 @@
 							</a>
 						</td>
 					</tr>
-					<?php } ?>
 				</tbody>
 			</table>
 		</div>
