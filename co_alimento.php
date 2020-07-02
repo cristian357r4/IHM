@@ -12,7 +12,7 @@
 <body>
 	<?php 
 		include("conexion.php");
-		$querycereales = "SELECT IDDETABLASDEALIMENTACION,INGREDIENTE,CANTIDAD FROM TABLASALIMENTICION WHERE GRUPOALIMENTICIO = 'Cereales y tubérculos'";
+		$querycereales = "SELECT IDDETABLASDEALIMENTACION,INGREDIENTE,CANTIDAD,GRUPOALIMENTICIO FROM TABLASALIMENTICION WHERE GRUPOALIMENTICIO = 'Cereales y tubérculos'";
 		$resultadocereales = mysqli_query($conn,$querycereales);
 	?>
 	<!-- Cabecera principal -->
