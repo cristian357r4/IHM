@@ -12,8 +12,8 @@
 	<?php
 		include("conexion.php");
 		$query = "SELECT ID,NOMBRE,EDAD,SEXO,RELIGION,ESTADOCIVIL,OCUPACION,FECHADENACIMIENTO,TELEFONO,CORREO,PESO,ESTATURA FROM PACIENTE";
+		echo $query;
 		$resultado = mysqli_query($conn,$query);
-		echo $resultado;
 	?>
 	<!-- Cabecera principal -->
 	<header class="header">
