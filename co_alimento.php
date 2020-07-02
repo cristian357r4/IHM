@@ -12,7 +12,6 @@
 <body>
 	<?php 
 		include("conexion.php");
-		echo $conn;
 		$querycereales = "SELECT IDDETABLASDEALIMENTACION,INGREDIENTE,CANTIDAD,GRUPOALIMENTICIO FROM TABLASALIMENTICION WHERE GRUPOALIMENTICIO = 'Cereales y tubérculos'";
 		$resultadocereales = mysqli_query($conn,$querycereales);
 	?>
@@ -98,17 +97,17 @@
 					<?php while($filacereales = mysqli_fetch_assoc($resultadocereales)){
 					?>
 					<tr>
+						<td><?php echo $filacereales['IDDETABLASDEALIMENTACION']?></td>
 						<td><?php echo $filacereales['INGREDIENTE']?></td>
-						<td><?php echo $filacereales['CANTIDAD']?></td>
-						<td>
-							<a href="">
+						<td><?php echo $filacereales['CANTIDAD']?>
+							<!--<a href="">
 								<img src="imagenes/iconos/lapiz.png" width="20" height="20">
-							</a>
+							</a>-->
 						</td>
-						<td>
-							<a href="">
+						<td><?php echo $filacereales['GRUPOALIMENTICIO']?>
+							<!--<a href="">
 								<img src="imagenes/iconos/borrar-usuario.png" width="20" height="20">
-							</a>
+							</a>-->
 						</td>
 					</tr>
 					<?php } ?>
