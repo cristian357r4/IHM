@@ -111,6 +111,7 @@
 							</a>
 						</td>
 					</tr>
+					<?php } ?>
 				</tbody>
 			</table>
 		</div>
@@ -130,6 +131,9 @@
 					</tr>
 				</thead>
 				<tbody>
+					<?php 
+						while($filas = mysqli_fetch_assoc($resultadoalimento)){
+					?>
 					<tr>
 						<td><?php echo $filas['INGREDIENTE']?></td>
 						<td><?php echo $filas['CANTIDAD']?></td>
@@ -144,6 +148,7 @@
 							</a>
 						</td>
 					</tr>
+					<?php }?>
 				</tbody>
 			</table>
 		</div>
