@@ -87,15 +87,14 @@
 						<th colspan="4">Cereales y tubérculos</th>
 					</tr>
 					<tr>
-						<th>Ingrediente</th>
-						<th>Cantidad</th>
+						<th id="ingrediente">Ingrediente</th>
+						<th id="cantidad">Cantidad</th>
 						<th>Editar</th>
 						<th>Eliminar</th>
 					</tr>
 				</thead>
 				<tbody>
-					<?php 
-						while($filacereales = mysqli_fetch_assoc($resultadocereales)){
+					<?php while($filacereales = mysqli_fetch_assoc($resultadocereales)){
 					?>
 					<tr>
 						<td><?php echo $filacereales['INGREDIENTE']?></td>
