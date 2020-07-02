@@ -15,6 +15,7 @@
 		$querycereales = "SELECT IDDETABLASDEALIMENTACION,INGREDIENTE,CANTIDAD FROM TABLASALIMENTICION WHERE GRUPOALIMENTICIO = 'Cereales y tubérculos'";
 		echo $querycereales;
 		$resultadocereales = mysqli_query($conn,$querycereales);
+		echo $resultadocereales;
 	?>
 	<!-- Cabecera principal -->
 	<header class="header">
